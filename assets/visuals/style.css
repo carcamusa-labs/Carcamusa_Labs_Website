@@ -4,35 +4,61 @@
   padding: 0;
 }
 
-html {
-  height: 100%;
-  margin: 0;
-}
-
 body {
   display: flex;
   flex-direction: column;
-
+  font-family: "fira-sans-2", sans-serif;
   height: 100vh;
   width: 100%;
   background-color: black;
   color: whitesmoke;
   margin: 0;
-  font-family: "fira-sans-2", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
 
-body h1 a {
-  font-family: "fira-sans-2", sans-serif;
+a {
+  text-decoration: none;
+  color: cyan;
+}
+
+a:visited {
+  color: cyan;
+}
+
+main {
+  justify-content: center;
+  padding: 0 50px;
+}
+
+h2 {
+  padding-top: 60px;
+  font-size: 2rem;
+}
+
+.indented_p {
+  text-indent: 5px;
+}
+
+p, ul {
+  padding-top: 20px;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+
+li {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  list-style-type: none;
+}
+
+.to_index {
+  position: relative;
+  top: 30px;
   font-weight: 400;
   font-style: normal;
   text-decoration: none;
   margin-left: 40px;
-}
-
-a:visited {
-  color: whitesmoke;
 }
 
 header {
@@ -43,19 +69,21 @@ header {
 }
 
 .logo_container {
-  background-color: #777;
-  width: 200px;
+  background-image: url(./carcamusa_labs_logo1.png);
+  background-size: cover;
+  background-position: center;
+  width: 100px;
   height: 100px;
+  margin-left: 20px;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .main_title {
   position: relative;
-  bottom: 25px;
-  height: 75px;
+  top: 15px;
+  justify-content: center;
   margin-left: 30px;
-  font-family: "fira-sans-2", sans-serif;
   font-weight: 400;
   font-size: 5rem;
 }
@@ -88,6 +116,7 @@ header {
   display: inline-block;
   position: relative;
   width: 100%;
+  font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
 }
 
 .menu a {
@@ -122,6 +151,23 @@ header {
   background-color: #1b1b1b;
 }
 
+.download_button {
+  background-color: #1b1b1b;
+  color: cyan;
+  margin: 20px 0;
+  padding: 20px; 
+  width: fit-content;
+  border-top: 1px solid rgba(0, 255, 255, .5);
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+h3 {
+  font-weight: lighter;
+  margin: 40px 0 20px 0;
+  font-size: 1.5rem;
+}
+
 .cube, .cube * {
   position: absolute;
   top: 25vh;
@@ -136,9 +182,9 @@ header {
 }
 
 .cube div a {
-  position: relative;
+  text-align: right;
   top: 50%;
-  left: 0;
+  left: -50%;
   transform: translate(-50%, -50%);
   font-size: 1.5em;
   white-space: nowrap;
@@ -151,20 +197,32 @@ header {
   flex-direction: column;
   justify-content: flex-start;
   align-content: flex-end;
-  text-align: left;
   border: 1px solid cyan;
   margin: -8em;
-  width: 16em;
-  height: 16em;
+  width: 14em;
+  height: 14em;
   background: black;
   box-shadow: inset 0 0 15px rgba(0, 0, 255, 0.6);
   backface-visibility: hidden;
 }
 
-.face a {
-  color: whitesmoke;
-  margin-right: -1.5rem;
-  text-decoration: none;
+.grid_container_outer {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.grid_container_inner_left, .grid_container_inner_right {
+  padding: 20px;
+  margin: 5px;
+  width: 50%;
+  background-color: #1b1b1b;
+  display: flex;
+  flex-direction: column;
+}
+
+.last_p {
+  margin-bottom: 60px;
 }
 
 footer {

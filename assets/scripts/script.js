@@ -6,8 +6,6 @@ $('document').ready(function() {
 	   var st = $(this).scrollTop();
 	   var sl = $(this).scrollLeft();
 	   if (st > lastScrollTop) {
-	       
-	       //Le cube tourne
 		    var p1,angle,i,tmp;
 			
 			p1	= {'x': sl - p0.x,	'y': st - p0.y }, 
@@ -20,10 +18,7 @@ $('document').ready(function() {
 				faces[i].style['-webkit-transform'] = p + tmp;
 			}
 	   }
-	   else if(st == lastScrollTop) {
-	     //do nothing 
-	     //In IE this is an important condition because there seems to be some instances where the last scrollTop is equal to the new one
-	   }
+	   else if(st == lastScrollTop) {}
 	   else {
 	   		var p1,angle,i,tmp;
 			p1	= {'x': sl - p0.x,	'y': st - p0.y }, 
@@ -40,20 +35,8 @@ $('document').ready(function() {
 	});
 });
 
-
-// END OF UNSURE PART
-
-
-
-
-
-
-
-
 init();		
-//===========================================================
-//			onMouseMove
-//===========================================================
+
 function onMouseMove(e) 
 {
 	var p1,angle,i,tmp;
@@ -70,26 +53,20 @@ function onMouseMove(e)
 		faces[i].style['-webkit-transform'] = p + tmp;
 	}
 }
-//===========================================================
-//			onMouseDown
-//===========================================================
+
 function onMouseDown(e)
 {
 	var element;
 
-	onMouseUp();	// disable if dragging
+	onMouseUp();
 
 	element = e.target;
-	//if (! element.classList.contains('face')) return false;
-
 	e.preventDefault();
 	window.p0	= { 'x': e.clientX, 'y': e.clientY };
 	dragging	= true;
 	return false;
 }
-//===========================================================
-//			onMouseUp
-//===========================================================
+
 function onMouseUp(e)
 {
 	var i,tmp,style;
@@ -103,11 +80,8 @@ function onMouseUp(e)
 		tmp = style.transform || style['-webkit-transform'];
 		styles[i] = tmp.replace('perspective(32em) ', '');
 	}
-  
 }
-//=====================================================================
-//			initializeCube
-//=====================================================================
+
 function initializeCube()
 {
 	var i,tmp;
@@ -123,9 +97,7 @@ function initializeCube()
 		styles.push(tmp);
 	}
 }
-//=====================================================================
-//			init
-//=====================================================================
+
 function init()
 {
 	window.addEventListener('mousedown', onMouseDown, false);
@@ -145,8 +117,3 @@ function init()
 
 	initializeCube();
 }
-
-
-
-
-
