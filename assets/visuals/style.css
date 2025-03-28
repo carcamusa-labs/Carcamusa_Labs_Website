@@ -221,6 +221,51 @@ h3 {
   flex-direction: column;
 }
 
+.grid_container_imageslot {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-self: center;
+  max-width: 420px;
+  max-height: 420px;
+  overflow: hidden;
+}
+
+.grid_container_textswrap {
+  display: flex;
+  flex-direction: row;
+}
+
+.grid_container_bigtext {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.grid_container_smalltext {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  margin-left: 20px;
+}
+
+.projects_project_title {
+  margin: 0;
+  margin: 20px 0;
+  font-size: 1.5rem;
+}
+
+.projects_project_platform {
+  font-size: 1.25rem;
+}
+
+.projects_project_stack {
+  font-size: 1rem;
+}
+
 .last_p {
   margin-bottom: 60px;
 }
