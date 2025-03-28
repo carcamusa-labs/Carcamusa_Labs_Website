@@ -1,0 +1,88 @@
+[
+    {
+      "src": "assets/visuals/artwork_assets/kazoku_father_front_frontmove.gif",
+      "used_in": "「Kazoku」",
+      "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_father_front_idle.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_father_front_sidemove.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_grandma_front_frontmove.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_grandma_front_idle.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_mother_front_frontmove.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_mother_front_idle.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_mother_front_sidemove.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_player_front_move.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_player_side_l__move.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_sister_front_move.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_sister_front_idle.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_sister_front_sidemove.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_father.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_mother.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_sister.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_grandma.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    }
+  ]
+  

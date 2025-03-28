@@ -1,5 +1,3 @@
-// START OF UNSURE PART
-
 $('document').ready(function() {
 	var lastScrollTop = 0;
 	$(window).scroll(function trucenscroll(event) {
@@ -116,4 +114,5 @@ function init()
 	window.p 		= 'perspective(32em)';
 
 	initializeCube();
+	console.log('Cube ready to render')
 }

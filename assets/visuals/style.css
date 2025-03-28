@@ -15,6 +15,7 @@ body {
   margin: 0;
   font-weight: 400;
   font-style: normal;
+  writing-mode: horizontal-tb;
 }
 
 a {
@@ -69,7 +70,7 @@ header {
 }
 
 .logo_container {
-  background-image: url(./carcamusa_labs_logo1.png);
+  background-image: url(./logos/carcamusa_labs_logo1.png);
   background-size: cover;
   background-position: center;
   width: 100px;
@@ -139,7 +140,7 @@ header {
 }
 
 .menu a:hover {
-  background-color: #555;
+  background-color: #1b1b1b;
 }
 
 .menu ul ul a {
@@ -206,8 +207,15 @@ h3 {
   backface-visibility: hidden;
 }
 
-.grid_container_outer {
+.grid_container_outer, .projects_grid_container_outer {
   display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.projects_grid_container_outer {
+  display: flex;
+  flex-wrap: wrap;
   width: 100%;
   height: auto;
 }
@@ -215,7 +223,7 @@ h3 {
 .grid_container_inner_left, .grid_container_inner_right {
   padding: 20px;
   margin: 5px;
-  width: 50%;
+  width: 49%; /* A little less than 50% so that elements fit in two lines, but don't overflow due to margin */
   background-color: #1b1b1b;
   display: flex;
   flex-direction: column;
@@ -231,6 +239,7 @@ h3 {
   max-width: 420px;
   max-height: 420px;
   overflow: hidden;
+  border-radius: 2px;
 }
 
 .grid_container_textswrap {
@@ -264,6 +273,40 @@ h3 {
 
 .projects_project_stack {
   font-size: 1rem;
+}
+
+.artworks_assets_grid_container_outer {
+  
+}
+
+.artworks_assets_grid_card {
+  background-color: #1b1b1b;
+  width: fit-content;
+  height: fit-content;
+  max-width: 300px;
+  max-height: 300px;
+  justify-items: center;
+  overflow: hidden;
+}
+
+.artworks_assets_card_imageslot {
+  padding: 20px;
+}
+
+.artworks_assets_card_textswrap {
+
+}
+
+.artworks_assets_card_text {
+
+}
+
+.artworks_assets_used_in {
+  text-align: center;
+}
+
+.artworks_assets_stack {
+  text-align: center;
 }
 
 .last_p {
