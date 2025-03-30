@@ -1,5 +1,25 @@
 [
     {
+        "src": "assets/visuals/artwork_assets/kazoku_father.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_mother.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_sister.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_grandma.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
       "src": "assets/visuals/artwork_assets/kazoku_father_front_frontmove.gif",
       "used_in": "「Kazoku」",
       "stack": "Aseprite"
@@ -45,7 +65,7 @@
         "stack": "Aseprite"
     },
     {
-        "src": "assets/visuals/artwork_assets/kazoku_player_side_l__move.gif",
+        "src": "assets/visuals/artwork_assets/kazoku_player_side_l_move.gif",
         "used_in": "「Kazoku」",
         "stack": "Aseprite"
     },
@@ -65,24 +85,39 @@
         "stack": "Aseprite"
     },
     {
-        "src": "assets/visuals/artwork_assets/kazoku_father.png",
+        "src": "assets/visuals/artwork_assets/kazoku_living_room.png",
         "used_in": "「Kazoku」",
         "stack": "Aseprite"
     },
     {
-        "src": "assets/visuals/artwork_assets/kazoku_mother.png",
-        "used_in": "「Kazoku」",
-        "stack": "Aseprite"
+        "src": "assets/visuals/artwork_assets/saishoshashin_main1.png",
+        "used_in": "Saisho Shashin",
+        "stack": "Photoshop"
     },
     {
-        "src": "assets/visuals/artwork_assets/kazoku_sister.png",
-        "used_in": "「Kazoku」",
-        "stack": "Aseprite"
+        "src": "assets/visuals/artwork_assets/saishoshashin_logo1.png",
+        "used_in": "Saisho Shashin",
+        "stack": "Photoshop"
     },
     {
-        "src": "assets/visuals/artwork_assets/kazoku_grandma.png",
-        "used_in": "「Kazoku」",
-        "stack": "Aseprite"
+        "src": "assets/visuals/artwork_assets/saishoshashin_person1.png",
+        "used_in": "Saisho Shashin",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/saishoshashin_person2.png",
+        "used_in": "Saisho Shashin",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/saishoshashin_person3.png",
+        "used_in": "Saisho Shashin",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/saishoshashin_person4.png",
+        "used_in": "Saisho Shashin",
+        "stack": "Photoshop"
     }
   ]
   
