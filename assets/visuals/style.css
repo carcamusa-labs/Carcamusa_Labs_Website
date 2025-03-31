@@ -335,6 +335,7 @@ h3 {
   width: 100%;
   background-color: #1b1b1b;
   display: flex;
+  justify-content: space-between;
 }
 
 .tool_card_imageslot {
@@ -357,6 +358,7 @@ h3 {
 }
 
 .tools_text_wrapper {
+  width: 75%; /* Change to 70 if layour breaks */
   padding: 0 30px;
   display: flex;
   flex-direction: column;
