@@ -46,20 +46,22 @@ document.addEventListener("DOMContentLoaded", () => {
         })
         .catch(error => console.error("Error loading images:", error));
 
-        fetch("./assets/scripts/artworks_assets_other_tools_list.json")
+        fetch("./assets/scripts/artworks_assets_tools_list.json")
         .then(response => response.json())
         .then(tools => {
-            const imgsOuterContainer = document.querySelector("");
+            const imgsOuterContainer = document.querySelector(".tools_container");
+
+            let cardCount = 0
 
             tools.forEach(tool => {
 
                 // Creates card
                 const card = document.createElement("div");
-                card.classList.add("");
+                card.classList.add("tool_card");
 
                 // Creates img
                 const imageSlot = document.createElement("div");
-                imageSlot.classList.add("");
+                imageSlot.classList.add("tool_card_imageslot");
                 const img = document.createElement("img");
                 img.src = tool.imgSrc;
                 img.alt = tool.name;
@@ -67,14 +69,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
                 // Creates card text
                 const textWrapper = document.createElement("div");
-                textWrapper.classList.add("");
+                textWrapper.classList.add("tools_text_wrapper");
 
                 const toolName = document.createElement("h3");
-                toolName.classList.add("");
+                toolName.classList.add("tools_name");
                 toolName.textContent = tool.name;
 
                 const toolDescription = document.createElement("p");
-                toolDescription.classList.add("");
+                toolDescription.classList.add("tools_description");
                 toolDescription.textContent = tool.description;
 
                 // Adds texts to container
@@ -82,11 +84,20 @@ document.addEventListener("DOMContentLoaded", () => {
                 textWrapper.appendChild(toolDescription);
 
                 // Appends everything to the card
-                card.appendChild(imageSlot);
-                card.appendChild(textWrapper);
+                if (cardCount % 2 == 0) {
+                    card.appendChild(imageSlot);
+                    card.appendChild(textWrapper);
+                } else {
+                    card.appendChild(textWrapper);
+                    card.appendChild(imageSlot);
+                }
+                console.log(cardCount)
 
                 // Adds card to container
                 imgsOuterContainer.appendChild(card);
+
+                // Adds +1 to counter
+                cardCount++;
             });
         })
         .catch(error => console.error("Error loading images:", error));

@@ -1,0 +1,37 @@
+[
+    {
+        "imgSrc": "assets/visuals/artwork_assets_tools/tools_pc.jpeg",
+        "name": "The old trustworthy",
+        "description": "Dell Intel Core i7-7500U, 12gb ram, Windows 10. It's been with me through thick and thin since more than 7 years now, running everything from game engines to a hundred (with 'a hundred' I mean 10 or 12) Opera tabs at once. It may not be the fastest, but hey, it gets the job done."
+    },
+    {
+        "imgSrc": "assets/visuals/artwork_assets_tools/tools_digitaltablet.jpeg",
+        "name": "Graphics Tablet",
+        "description": "Wacom Cintiq 21UX DTK-2100. A magical slab that turns my chaotic hand movements into digital 'art'. Great for sketching, designing, and sometimes just doodling nonsense when I'm supposed to be facing real life challenges :')"
+    },
+    {
+        "imgSrc": "assets/visuals/artwork_assets_tools/tools_playdate.jpeg",
+        "name": "Playdate Console",
+        "description": "This tiny yellow 1bit wonder lets me test the games I develop in the Playdate SDK on real hardware. Crank-powered gaming at its finest. People think it's a Tamagotchi. It is not."
+    },
+    {
+        "imgSrc": "assets/visuals/artwork_assets_tools/tools_pocketoperator.jpeg",
+        "name": "T.E. PO-20 Arcade",
+        "description": "'Teenage Engineering Pocket Operator 20 Arcade' - A pocket-sized music machine that lets me create retro arcade beats wherever I go. AAA batteries powered, has a clock, and it's yellow."
+    },
+    {
+        "imgSrc": "assets/visuals/artwork_assets_tools/tools_notebook.jpeg",
+        "name": "Pen & Paper",
+        "description": "For when I need to dump ideas the old-fashioned way. Also great for breaking down big problems into bite-sized chunks, and sketching on the run."
+    },
+    {
+        "imgSrc": "assets/visuals/artwork_assets_tools/tools_books.jpeg",
+        "name": "Books",
+        "description": "Fuel for the mind! Some for learning, some for inspiration, and... Some comics and manga as well."
+    },
+    {
+        "imgSrc": "assets/visuals/artwork_assets_tools/tools_coffee.jpeg",
+        "name": "Coffee",
+        "description": "Needs no description!"
+    }
+]

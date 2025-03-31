@@ -118,6 +118,51 @@
         "src": "assets/visuals/artwork_assets/saishoshashin_person4.png",
         "used_in": "Saisho Shashin",
         "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper1.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper2.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper3.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper4.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper5.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper6.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper7.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper8.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/penpaper9.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen & Paper"
     }
   ]
   
