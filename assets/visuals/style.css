@@ -4,6 +4,28 @@
   padding: 0;
 }
 
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #555;
+  border: 2px solid #1e1e1e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -16,6 +38,10 @@ body {
   font-weight: 400;
   font-style: normal;
   writing-mode: horizontal-tb;
+
+  -ms-overflow-style: none;
+  scrollbar-face-color: #555;
+  scrollbar-track-color: #1e1e1e;
 }
 
 a {
@@ -206,6 +232,10 @@ h3 {
   backface-visibility: hidden;
 }
 
+.cv {
+  height: 600px;
+}
+
 .grid_container_outer, .projects_grid_container_outer {
   display: flex;
   width: 100%;
@@ -279,6 +309,8 @@ h3 {
   width: 100%;
   flex-wrap: wrap;
   flex-basis: auto;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .artworks_assets_grid_card {
@@ -327,7 +359,8 @@ h3 {
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: fit-content;
+  height: 100vh;
+  overflow: scroll;
 }
 
 .tool_card {

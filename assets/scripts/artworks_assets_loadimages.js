@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", async () => {
     try {
         const [imagesResponse, toolsResponse] = await Promise.all([
-            fetch("./assets/scripts/artworks_assets_list.json").then(res => res.json()),
-            fetch("./assets/scripts/artworks_assets_tools_list.json").then(res => res.json())
+            fetch("./assets/json/artworks_assets_list.json").then(res => res.json()),
+            fetch("./assets/json/artworks_assets_tools_list.json").then(res => res.json())
         ]);
 
         renderImages(imagesResponse);

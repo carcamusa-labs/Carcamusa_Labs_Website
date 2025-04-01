@@ -114,5 +114,4 @@ function init()
 	window.p 		= 'perspective(32em)';
 
 	initializeCube();
-	console.log('Cube ready to render')
 }
