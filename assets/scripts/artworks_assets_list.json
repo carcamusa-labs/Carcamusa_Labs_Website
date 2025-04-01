@@ -20,6 +20,16 @@
         "stack": "Aseprite"
     },
     {
+        "src": "assets/visuals/artwork_assets/kazoku_chars_banner2.png",
+        "used_in": "「Kazoku」- Promotional",
+        "stack": "Krita"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_chars_banner1.png",
+        "used_in": "「Kazoku」- Promotional",
+        "stack": "Krita"
+    },
+    {
       "src": "assets/visuals/artwork_assets/kazoku_father_front_frontmove.gif",
       "used_in": "「Kazoku」",
       "stack": "Aseprite"
