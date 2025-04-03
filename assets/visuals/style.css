@@ -246,6 +246,14 @@ h3 {
   backface-visibility: hidden;
 }
 
+.face a {
+  text-rendering: geometricPrecision;
+  font-smooth: never;
+  -webkit-font-smoothing: none;
+
+  font-family: monospace, sans-serif;
+}
+
 .cv {
   height: 600px;
 }
@@ -418,6 +426,59 @@ h3 {
 .tools_description {
   font-size: 1.5rem;
   line-height: 1.8rem;
+}
+
+.referrals_referralcards_container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  width: 100%;
+}
+
+.referrals_card {
+  display: flex;
+  width: 100%;
+  height: auto;
+  background-color: #1b1b1b;
+  margin: 10px;
+}
+
+.referrals_card_leftarea_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.referrals_card_imageslot {
+  width: 100%;
+  height: auto;
+  max-width: 200px;
+  max-height: 200px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.referrals_card_rightarea_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  align-items: center;
+  justify-items: center;
+  margin: 20px;
+}
+
+.referrals_card_referral_lk, .referrals_card_referral_gh, .referrals_card_referral_web {
+  width: 40px;
+  height: 40px;
+  margin: 10px;
 }
 
 .last_p {

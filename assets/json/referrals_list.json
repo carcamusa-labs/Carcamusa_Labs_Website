@@ -1,0 +1,56 @@
+[
+    {
+        "name": "Cristian Salerno",
+        "enterprise": "Osapiens (Enterprise)",
+        "job_title": "Dev",
+        "background": "Lorem ipsum dolor sit amet",
+        "gh_user": "https://github.com/CristianSalerno",
+        "lk_user": "https://www.linkedin.com/in/cristian-salerno-25027440/",
+        "website": null
+    },
+    {
+        "name": "Elsa Gómez",
+        "enterprise": "Lingokids (Enterprise)",
+        "job_title": "QA Engineer",
+        "background": "Lorem ipsum dolor sit amet",
+        "gh_user": null,
+        "lk_user": "https://www.linkedin.com/in/elsa-gómez-frias/",
+        "website": null
+    },
+    {
+        "name": "Ignacio Degneffe",
+        "enterprise": "Lingokids (Enterprise)",
+        "job_title": "QA Manager",
+        "background": "Lorem ipsum dolor sit amet",
+        "gh_user": null,
+        "lk_user": "https://www.linkedin.com/in/ivan-garcia-2584723a/",
+        "website": null
+    },
+    {
+        "name": "Iván García",
+        "enterprise": "Lingokids (Enterprise)",
+        "job_title": "Dev",
+        "background": "Lorem ipsum dolor sit amet",
+        "gh_user": "https://github.com/ivngar",
+        "lk_user": "https://www.linkedin.com/in/ignacio-degeneffe-navarrete-4b090a31/",
+        "website": null
+    },
+    {
+        "name": "Santiago Bayazbakian",
+        "enterprise": "Lingokids (Enterprise)",
+        "job_title": "Dev",
+        "background": "Lorem ipsum dolor sit amet",
+        "gh_user": "https://github.com/sbayazbakian",
+        "lk_user": "https://www.linkedin.com/in/santiago-bayazbakian/",
+        "website": "https://santiago.bayazbakian.dev"
+    },
+    {
+        "name": "Sergio Barrio",
+        "enterprise": "Lingokids (Enterprise)",
+        "job_title": "Dev",
+        "background": "Lorem ipsum dolor sit amet",
+        "gh_user": "https://github.com/sbarrio",
+        "lk_user": "https://www.linkedin.com/in/sergio-barrio-slocker-b408983b/",
+        "website": "https://sbarrio.github.io"
+    }
+]
