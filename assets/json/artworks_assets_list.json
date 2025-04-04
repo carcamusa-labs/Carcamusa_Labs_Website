@@ -55,6 +55,11 @@
         "stack": "Aseprite"
     },
     {
+        "src": "assets/visuals/artwork_assets/kazoku_grandma_front_sidemove.gif",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
         "src": "assets/visuals/artwork_assets/kazoku_mother_front_frontmove.gif",
         "used_in": "「Kazoku」",
         "stack": "Aseprite"
