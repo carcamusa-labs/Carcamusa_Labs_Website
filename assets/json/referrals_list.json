@@ -18,12 +18,12 @@
         "website": null
     },
     {
-        "name": "Ignacio Degneffe",
+        "name": "Ignacio Degeneffe",
         "enterprise": "Lingokids (Enterprise)",
         "job_title": "QA Manager",
         "background": "Lorem ipsum dolor sit amet",
         "gh_user": null,
-        "lk_user": "https://www.linkedin.com/in/ivan-garcia-2584723a/",
+        "lk_user": "https://www.linkedin.com/in/ignacio-degeneffe-navarrete-4b090a31/",
         "website": null
     },
     {
@@ -32,8 +32,17 @@
         "job_title": "Dev",
         "background": "Lorem ipsum dolor sit amet",
         "gh_user": "https://github.com/ivngar",
-        "lk_user": "https://www.linkedin.com/in/ignacio-degeneffe-navarrete-4b090a31/",
+        "lk_user": "https://www.linkedin.com/in/ivan-garcia-2584723a/",
         "website": null
+    },
+    {
+        "name": "Ricardo Izquierdo",
+        "enterprise": "Lingokids (Enterprise)",
+        "job_title": "QA Manager",
+        "background": "Lorem ipsum dolor sit amet",
+        "gh_user": null,
+        "lk_user": "https://www.linkedin.com/in/ricardo-izquierdo-50469813/",
+        "website": "https://www.ricardoizquierdodiaz.com"
     },
     {
         "name": "Santiago Bayazbakian",

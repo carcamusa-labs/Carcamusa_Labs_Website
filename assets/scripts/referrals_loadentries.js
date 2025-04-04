@@ -45,9 +45,10 @@ function renderEntries(entries) {
         referralEnterprise.classList.add("referrals_card_referralenterprise");
         referralEnterprise.textContent = entry.enterprise;
 
-        const referralBackground = document.createElement('p');
+        /* NOT READY TO BE IMPLEMENTED YET */
+        /* const referralBackground = document.createElement('p');
         referralBackground.classList.add("referrals_card_referralbackground");
-        referralBackground.textContent = entry.background;
+        referralBackground.textContent = entry.background; */
 
         const referralsMediaLinksWrapper = document.createElement('div');
         referralsMediaLinksWrapper.classList.add("referrals_social_media_links_wrapper");
@@ -96,7 +97,10 @@ function renderEntries(entries) {
 
         rightWrapper.appendChild(referralName);
         rightWrapper.appendChild(referralEnterprise);
-        rightWrapper.appendChild(referralBackground);
+        
+        /* NOT READY TO BE IMPLEMENTED YET */
+        // rightWrapper.appendChild(referralBackground);
+
         rightWrapper.appendChild(referralsMediaLinksWrapper);
 
         card.appendChild(leftWrapper);
