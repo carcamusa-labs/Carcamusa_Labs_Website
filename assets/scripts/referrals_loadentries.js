@@ -26,8 +26,8 @@ function renderEntries(entries) {
         const devImgSrc = "assets/visuals/logos/dev_icon.png";
         const qaImgSrc = "assets/visuals/logos/qa_icon.png";
 
-        img.src = entry?.job_title == 'Dev' ? devImgSrc : qaImgSrc;
-        img.alt = entry.job_title;
+        img.src = entry?.job_img == 'Dev' ? devImgSrc : qaImgSrc;
+        img.alt = entry.job_img;
         imageSlot.appendChild(img);
 
         const jobTitleText = document.createElement('h4');
@@ -41,21 +41,21 @@ function renderEntries(entries) {
         referralName.classList.add("referrals_card_referralname");
         referralName.textContent = entry.name;
 
-        const referralEnterprise = document.createElement('h3');
-        referralEnterprise.classList.add("referrals_card_referralenterprise");
-        referralEnterprise.textContent = entry.enterprise;
+        const referralKnownFrom = document.createElement('h3');
+        referralKnownFrom.classList.add("referrals_card_referralKnownFrom");
+        referralKnownFrom.textContent = entry.known_from;
 
         /* NOT READY TO BE IMPLEMENTED YET */
-        /* const referralBackground = document.createElement('p');
-        referralBackground.classList.add("referrals_card_referralbackground");
-        referralBackground.textContent = entry.background; */
+        /* const performance = document.createElement('p');
+        performance.classList.add("referrals_card_performance");
+        performance.textContent = entry.performance; */
 
         const referralsMediaLinksWrapper = document.createElement('div');
         referralsMediaLinksWrapper.classList.add("referrals_social_media_links_wrapper");
 
-        if (entry?.lk_user) {
+        if (entry?.lkdin_user) {
             const referralLK = document.createElement('a');
-            referralLK.href = entry.lk_user;
+            referralLK.href = entry.lkdin_user;
 
             const lkImg = document.createElement('img');
             lkImg.classList.add("referrals_card_referral_lk");
@@ -96,10 +96,10 @@ function renderEntries(entries) {
         leftWrapper.appendChild(jobTitleText);
 
         rightWrapper.appendChild(referralName);
-        rightWrapper.appendChild(referralEnterprise);
+        rightWrapper.appendChild(referralKnownFrom);
         
         /* NOT READY TO BE IMPLEMENTED YET */
-        // rightWrapper.appendChild(referralBackground);
+        /* rightWrapper.appendChild(performance); */
 
         rightWrapper.appendChild(referralsMediaLinksWrapper);
 
