@@ -180,6 +180,45 @@ header {
   background-color: #1b1b1b;
 }
 
+.temp_announcement_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  background-color: color(display-p3 0.424 0 1 / 1);
+  padding: 30px;
+  border-radius: 30px;
+  margin-top: 50px;
+}
+
+.temp_announcement_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+}
+
+.temp_announcement_img_container img {
+  border-radius: 20px;
+}
+
+.temp_announcement_text_container {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  width: 45%;
+  margin: 20px;
+}
+
+.temp_announcement_text_container p a {
+  text-decoration: none;
+  color: color(display-p3 1 0.784 0.2);
+}
+
+.quick_announcement_h1 {
+  font-size: 3rem;
+}
+
 .download_button {
   background-color: #1b1b1b;
   color: cyan;
