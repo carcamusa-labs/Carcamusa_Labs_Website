@@ -105,6 +105,46 @@
         "stack": "Aseprite"
     },
     {
+        "src": "assets/visuals/artwork_assets/kazoku_game_over.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/asset1_iceberry.jpg",
+        "used_in": "Various Assets",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/asset2_pupae_juice.jpg",
+        "used_in": "Various Assets",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/asset3_orangepotion.jpg",
+        "used_in": "Various Assets",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/asset4_manabar.jpg",
+        "used_in": "Various Assets",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/asset5_menu.jpg",
+        "used_in": "Various Assets",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/asset6_younger_minimalist_me.jpg",
+        "used_in": "Various Assets",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/asset7_manilogo_bnw.jpg",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
         "src": "assets/visuals/artwork_assets/saishoshashin_main1.png",
         "used_in": "Saisho Shashin",
         "stack": "Photoshop"
@@ -132,6 +172,106 @@
     {
         "src": "assets/visuals/artwork_assets/saishoshashin_person4.png",
         "used_in": "Saisho Shashin",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup1_umami.png",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup1_umami2.png",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup2_autorosa.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup2_autorosa_bg.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup2_autorosa_flyer.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup3_personal_card1.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup4_buttons.png",
+        "used_in": "Various Assets",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup5_bootleg_alphahor.png",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup6_radioactive.png",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup7_do.png",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup8_chancho_va.png",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup9_sannakji.png",
+        "used_in": "Logos",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup10_microwaverat.png",
+        "used_in": "Random Artworks",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup11_monobier.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup12_mxm.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup13_sushiplace.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup14_dystopian_govhouse.png",
+        "used_in": "Random Artworks",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup15_example_flyer.png",
+        "used_in": "Mockups",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup16_garlik_stinkah.png",
+        "used_in": "Random Artworks",
+        "stack": "Photoshop"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/mockup17_mc_toxic_bile.png",
+        "used_in": "Random Artworks",
         "stack": "Photoshop"
     },
     {
