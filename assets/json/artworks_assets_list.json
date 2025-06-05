@@ -1,5 +1,15 @@
 [
     {
+        "src": "assets/visuals/artwork_assets/konna_64_512.png",
+        "used_in": "Original Characters",
+        "stack": "PixelMaker Studio 2DS"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/konna_32_512.png",
+        "used_in": "Original Characters",
+        "stack": "PixelMaker Studio 2DS"
+    },
+    {
         "src": "assets/visuals/artwork_assets/kazoku_father.png",
         "used_in": "「Kazoku」",
         "stack": "Aseprite"
