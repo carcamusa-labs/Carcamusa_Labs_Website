@@ -4,6 +4,136 @@
   padding: 0;
 }
 
+@media (min-width: 370px) and (max-width: 480px) {
+  body {
+    overflow: scroll;
+  }
+
+  h4 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  h4 span {
+    background-color: whitesmoke;
+    color: black;
+  }
+
+  #links_my-links {
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  #links_initial-paragraph-container {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 30px 20px 20px 20px;
+  }
+
+  #links_buttons-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: 0 10px;
+  }
+
+  .links_cl-button {
+    color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin: 7px 0;
+    height: 70px;
+    padding: 0 20px 0 5px;
+    border-radius: 35px;
+    color: white;
+    align-content: center;
+    justify-items: center;
+    align-items: center;
+    text-align: left;
+
+    display: flex;
+    flex-direction: row;
+  }
+
+  .links_cl-button-texts-container {
+    justify-items: left;
+    text-align: left;
+  }
+
+  .links_cl-button-text-main {
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-size: 1.3rem
+  }
+
+    .links_cl-button-text-secondary {
+    margin: 0 0 0 20px;
+    padding: 0;
+    font-size: 0.9rem;
+  }
+
+  .links_cl-button-image-container {
+
+    min-width: 60px;
+    min-height: 60px;
+    background-color: black;
+    border-radius: 50px;
+  }
+
+  #links_cl-instagram-button {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #1b1b1b;
+  }
+
+  #img_ig {
+    background-size: cover;
+    background-image: url(./logos/ig_blk_bg.png);
+    background-position: center;
+  }
+
+  #links_cl-itchio-button {
+    background-color: #FA5C5C;
+    color: #1b1b1b;
+  }
+
+  #img_iio {
+    background-size: cover;
+    background-image: url(./logos/iio_blk_bg.png);
+    background-position: center;
+  }
+
+  #links_cl-website-button {
+    background-color: #1b1b1b;
+    border: 1px solid cyan;
+    box-shadow: 0 0 5px cyan;
+    color: cyan;
+  }
+
+  #img_clabs {
+    background-size: cover;
+    background-image: url(./logos/clabs_blk_bg.png);
+    background-position: center;
+  }
+
+  #links_cl-bmac-button {
+  background-color: rgba(255, 221, 0, 1);
+  color: #1b1b1b;
+}
+
+  #img_bmac {
+    background-size: cover;
+    background-image: url(./logos/bmac_blk_bg.png);
+    background-position: center;
+  }
+
+  .links_footer {
+    margin: 50px 20px 20px 20px;
+  }
+  
+  .links_footer-text {
+    margin: 5px 0;
+  }
+}
+
 ::-webkit-scrollbar {
   width: 5px;
   height: 5px;
