@@ -5,7 +5,8 @@
 }
 
 #about_selfie {
-  width: 30%;
+  width: 300px;
+  height: auto;
 }
 
 @media (min-width: 370px) and (max-width: 480px) {
