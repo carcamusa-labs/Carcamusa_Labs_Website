@@ -15,6 +15,51 @@
         "stack": "PixelMaker Studio 2DS"
     },
     {
+        "src": "assets/visuals/artwork_assets/kazoku_webasset_website_feature.png",
+        "used_in": "「Kazoku」",
+        "stack": "Krita"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_webasset_website_header.png",
+        "used_in": "「Kazoku」",
+        "stack": "Krita"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_webasset_website_small.png",
+        "used_in": "「Kazoku」",
+        "stack": "Krita"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_catalogasset_wrapping-pattern.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_catalogasset_card.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_catalogasset_catalog_header.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_catalogasset_catalog_wide.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_catalogasset_icon.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
+        "src": "assets/visuals/artwork_assets/kazoku_catalogasset_launchImage.png",
+        "used_in": "「Kazoku」",
+        "stack": "Aseprite"
+    },
+    {
         "src": "assets/visuals/artwork_assets/kazoku_father.png",
         "used_in": "「Kazoku」",
         "stack": "Krita"
@@ -192,12 +237,12 @@
     {
         "src": "assets/visuals/artwork_assets/mockup1_umami.png",
         "used_in": "Logos",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup1_umami2.png",
         "used_in": "Logos",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup2_autorosa.png",
@@ -227,27 +272,27 @@
     {
         "src": "assets/visuals/artwork_assets/mockup5_bootleg_alphahor.png",
         "used_in": "Logos",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup6_radioactive.png",
         "used_in": "Logos",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup7_do.png",
         "used_in": "Logos",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup8_chancho_va.png",
         "used_in": "Logos",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup9_sannakji.png",
         "used_in": "Logos",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup10_microwaverat.png",
@@ -267,7 +312,7 @@
     {
         "src": "assets/visuals/artwork_assets/mockup13_sushiplace.png",
         "used_in": "Mockups",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup14_dystopian_govhouse.png",
@@ -277,7 +322,7 @@
     {
         "src": "assets/visuals/artwork_assets/mockup15_example_flyer.png",
         "used_in": "Mockups",
-        "stack": "Photoshop"
+        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup16_garlik_stinkah.png",
@@ -290,74 +335,79 @@
         "stack": "Photoshop"
     },
     {
+        "src": "assets/visuals/artwork_assets/penpaper_oc_konna_mahoutsukai.jpeg",
+        "used_in": "Sketches",
+        "stack": "Pen/pencil & Paper"
+    },
+    {
         "src": "assets/visuals/artwork_assets/penpaper1.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper2.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper3.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper4.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper5.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper6.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper7.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper8.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper9.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
         {
         "src": "assets/visuals/artwork_assets/penpaper10.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
         {
         "src": "assets/visuals/artwork_assets/penpaper11.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper12.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper13.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     },
     {
         "src": "assets/visuals/artwork_assets/penpaper14.jpeg",
         "used_in": "Sketches",
-        "stack": "Pen & Paper"
+        "stack": "Pen/pencil & Paper"
     }
   ]
   
