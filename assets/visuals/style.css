@@ -468,59 +468,145 @@ h3 {
   padding: clamp(2rem, 6vmin, 5rem) clamp(1rem, 4vw, 3rem);
   box-sizing: border-box;
   overflow: visible;
-  cursor: grab; /* Indica que se puede arrastrar */
 }
 
-#cube-wrapper:active {
-  cursor: grabbing;
-}
-
-
-.cube,
-.cube * {
-  position: absolute;
-  top: 25vh;
-  left: 50%;
-}
-
-.cube {
-  user-select: none;
-  cursor: move;
-  transform-style: preserve-3d;
-  transition: transform 0.5s;
-}
-
-.cube div a {
-  text-align: right;
-  top: 50%;
-  left: -50%;
-  transform: translate(-50%, -50%);
-  font-size: 1.5em;
-  white-space: nowrap;
-  color: whitesmoke;
-}
-
-.face {
+/* Desktop home: inclined hex prism / bolt menu, Y-spin only (mobile hides #cube-wrapper) */
+.hex-bolt-scene {
+  --hex-face-w: clamp(6.75rem, 14vw, 9.5rem);
+  --hex-face-h: clamp(9.75rem, 22vmin, 13.5rem);
+  --hex-label-z: clamp(28px, 3.8vmin, 52px);
+  /* regular hex apothem for edge length = face width */
+  --hex-r: calc(var(--hex-face-w) * 0.8660254037844387);
   display: flex;
-  box-sizing: border-box;
   flex-direction: column;
-  justify-content: flex-start;
-  align-content: flex-end;
-  border: 1px solid cyan;
-  margin: -8em;
-  width: 14em;
-  height: 14em;
-  background: black;
-  box-shadow: inset 0 0 15px rgba(0, 0, 255, 0.6);
-  backface-visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  width: min(680px, 96vw);
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
-.face a {
-  text-rendering: geometricPrecision;
-  font-smooth: never;
-  -webkit-font-smoothing: none;
+.hex-bolt-stage {
+  perspective: 1180px;
+  perspective-origin: 50% 58%;
+  width: min(600px, 94vw);
+  height: min(520px, 68vh);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  cursor: grab;
+  touch-action: none;
+  transform-style: preserve-3d;
+}
 
+.hex-bolt-stage:hover {
+  cursor: default;
+}
+
+.hex-bolt-stage--dragging {
+  cursor: grabbing !important;
+}
+
+.hex-bolt-tilt {
+  transform-style: preserve-3d;
+  /* Gentler pitch = less “from above”, more frontal; slight drop fills frame with faces */
+  transform: translateY(1.35rem) rotateX(-20deg);
+}
+
+/* Stack Y-axis guide (no spin) with drum (rotateY) on same pivot */
+.hex-bolt-tilt-stack {
+  display: grid;
+  place-items: center;
+  transform-style: preserve-3d;
+}
+
+.hex-bolt-y-axis {
+  grid-area: 1 / 1;
+  z-index: 0;
+  width: 2px;
+  height: min(34rem, 78vh);
+  margin: 0;
+  pointer-events: none;
+  transform: translateZ(0);
+  transform-style: preserve-3d;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 255, 255, 0.15) 8%,
+    rgba(0, 200, 255, 0.75) 22%,
+    rgba(0, 255, 255, 0.95) 50%,
+    rgba(0, 200, 255, 0.75) 78%,
+    rgba(0, 255, 255, 0.15) 92%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 4px rgba(0, 255, 255, 0.9),
+    0 0 14px rgba(0, 80, 200, 0.55),
+    0 0 28px rgba(0, 40, 120, 0.35);
+  opacity: 0.92;
+}
+
+.hex-bolt-drum {
+  grid-area: 1 / 1;
+  position: relative;
+  z-index: 1;
+  width: 0;
+  height: 0;
+  transform-style: preserve-3d;
+  user-select: none;
+}
+
+.hex-bolt-face {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: var(--hex-face-w);
+  height: var(--hex-face-h);
+  margin-left: calc(var(--hex-face-w) / -2);
+  margin-top: calc(var(--hex-face-h) / -2);
+  transform-style: preserve-3d;
+  backface-visibility: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.hex-bolt-panel {
+  position: absolute;
+  inset: 0;
+  box-sizing: border-box;
+  background: #000;
+  border: 1px solid cyan;
+  box-shadow: inset 0 0 16px rgba(0, 60, 200, 0.5);
+  pointer-events: none;
+}
+
+.hex-bolt-link {
+  position: relative;
+  z-index: 1;
+  display: block;
+  min-width: 0;
+  max-width: 100%;
+  padding: 0.25rem 0.4rem;
+  box-sizing: border-box;
+  text-align: center;
+  text-decoration: none;
+  color: whitesmoke;
   font-family: monospace, sans-serif;
+  font-size: clamp(0.82rem, 0.42rem + 1.2vw, 1.2rem);
+  line-height: 1.25;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-shadow: 0 0 8px rgba(0, 40, 120, 0.85);
+  transform: translateZ(var(--hex-label-z));
+  transform-style: preserve-3d;
+}
+
+.hex-bolt-link:hover {
+  color: cyan;
 }
 
 .cv {
@@ -961,7 +1047,7 @@ footer div {
     display: none !important;
   }
 
-  /* Home index — cube is desktop-only */
+  /* Home index — center nav (hex bolt on desktop) hidden on mobile */
   #cube-wrapper {
     display: none !important;
   }
