@@ -470,7 +470,7 @@ h3 {
   overflow: visible;
 }
 
-/* Desktop home: inclined hex prism / bolt menu, Y-spin only (mobile hides #cube-wrapper) */
+/* Desktop home: inclined hex prism / bolt menu (mobile overrides below) */
 .hex-bolt-scene {
   --hex-face-w: clamp(6.75rem, 14vw, 9.5rem);
   --hex-face-h: clamp(9.75rem, 22vmin, 13.5rem);
@@ -498,10 +498,13 @@ h3 {
   cursor: grab;
   touch-action: none;
   transform-style: preserve-3d;
+  -webkit-tap-highlight-color: transparent;
 }
 
-.hex-bolt-stage:hover {
-  cursor: default;
+@media (hover: hover) {
+  .hex-bolt-stage:hover {
+    cursor: default;
+  }
 }
 
 .hex-bolt-stage--dragging {
@@ -1047,56 +1050,48 @@ footer div {
     display: none !important;
   }
 
-  /* Home index — center nav (hex bolt on desktop) hidden on mobile */
+  /* Home index — hex bolt (mobile + desktop); grid nav kept in HomeMobileNav.tsx for easy rollback */
   #cube-wrapper {
+    display: flex !important;
+    flex: 1 1 auto;
+    min-height: min(38dvh, 14rem);
+    width: 100%;
+    max-width: 100%;
+    padding: clamp(0.5rem, 2.5vmin, 1.25rem) 10px;
+    box-sizing: border-box;
+  }
+
+  .home-mobile-nav {
     display: none !important;
   }
 
-  /* ----- Home: section quick links (mobile index only) ----- */
-  .home-mobile-nav {
-    --hm-gap: 6px;
-    /* Square side limited by width (2 cols) and height (3 rows) so the block fits in the viewport */
-    --hm-s: min(
-      calc((100vw - 36px - var(--hm-gap)) / 2),
-      calc((100dvh - 13.5rem - 2 * var(--hm-gap)) / 3)
-    );
-    display: grid;
-    grid-template-columns: var(--hm-s) var(--hm-s);
-    width: calc(2 * var(--hm-s) + var(--hm-gap));
-    max-width: none;
-    gap: var(--hm-gap);
-    margin: 6px auto;
-    padding: 0;
-    box-sizing: border-box;
-    flex: 1 1 auto;
-    min-height: 0;
-    align-content: center;
-  }
-
-  .home-mobile-nav__btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-family: monospace, sans-serif;
-    font-size: clamp(0.55rem, calc(var(--hm-s) * 0.11), 0.72rem);
-    font-weight: 500;
-    line-height: 1.15;
-    color: cyan;
-    text-decoration: none;
-    border: 1px solid rgba(0, 255, 255, 0.45);
-    border-radius: 3px;
-    padding: 4px 3px;
-    box-sizing: border-box;
+  /* Mobile hex bolt — smaller faces, shorter stage, same Y-spin + drag behaviour */
+  .hex-bolt-scene {
     width: 100%;
-    min-width: 0;
-    aspect-ratio: 1 / 1;
-    background: rgba(27, 27, 27, 0.75);
-    -webkit-tap-highlight-color: transparent;
+    max-width: 100%;
+    --hex-face-w: clamp(4.1rem, 22vw, 5.35rem);
+    --hex-face-h: clamp(6rem, 32vmin, 8.5rem);
+    --hex-label-z: clamp(16px, 3.6vmin, 30px);
   }
 
-  .home-mobile-nav__btn:active {
-    background: rgba(0, 255, 255, 0.1);
+  .hex-bolt-stage {
+    width: min(100%, 420px);
+    height: min(360px, 52dvh);
+    perspective: 900px;
+    perspective-origin: 50% 56%;
+  }
+
+  .hex-bolt-tilt {
+    transform: translateY(0.65rem) rotateX(-18deg);
+  }
+
+  .hex-bolt-y-axis {
+    height: min(24rem, 58dvh);
+  }
+
+  .hex-bolt-link {
+    font-size: clamp(0.58rem, 2.6vw, 0.76rem);
+    padding: 0.2rem 0.3rem;
   }
 
   /* ----- Footer ----- */
