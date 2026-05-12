@@ -5,14 +5,16 @@ export function CvContactPage() {
     <InnerPageLayout title="2. Contact & Media">
       <h2>[ CV &amp; CONTACT ]</h2>
       <h3>CV Download</h3>
-      <a
-        href="/assets/visuals/downloadables/CV-Martin-Rosa_QA-Engineer_(EN).pdf"
-        className="download_a"
-        download
-      >
-        <div className="download_button">CV Download (PDF - 2mb)</div>
-      </a>
-      <h3>CV Preview</h3>
+      <div className="cv-download-wrap">
+        <a
+          href="/assets/visuals/downloadables/CV-Martin-Rosa_QA-Engineer_(EN).pdf"
+          className="download_a"
+          download
+        >
+          <div className="download_button">CV Download (PDF - 2mb)</div>
+        </a>
+      </div>
+      <h3 className="cv-preview-heading">CV Preview</h3>
       <embed
         className="cv"
         src="/assets/visuals/downloadables/CV-Martin-Rosa_QA-Engineer_(EN).pdf"
@@ -21,161 +23,206 @@ export function CvContactPage() {
         type="application/pdf"
       />
       <h3>More detailed information</h3>
-      <div className="grid_container_outer">
+      <div className="grid_container_outer cv-skills-outer">
         <div className="grid_container_inner_left">
           <h2>Skills &amp; Stack</h2>
           <h3>
             <b>Programming &amp; Tools</b>
           </h3>
-          <ul>
+          <ul className="cv-skills-ul">
             <li>
-              <b>Git</b> - Version control system for tracking code changes
+              <b>Git</b>
+              <span className="cv-skill-desc"> - Version control system for tracking code changes</span>
             </li>
             <li>
-              <b>GitHub</b> - Cloud-based platform for code hosting and collaboration
+              <b>GitHub</b>
+              <span className="cv-skill-desc"> - Cloud-based platform for code hosting and collaboration</span>
             </li>
             <li>
-              <b>GitLab</b> - DevOps platform for code repository management
+              <b>GitLab</b>
+              <span className="cv-skill-desc"> - DevOps platform for code repository management</span>
             </li>
             <li>
-              <b>HTML</b> - Markup language for structuring web content
+              <b>HTML</b>
+              <span className="cv-skill-desc"> - Markup language for structuring web content</span>
             </li>
             <li>
-              <b>CSS</b> - Stylesheet language for web design
+              <b>CSS</b>
+              <span className="cv-skill-desc"> - Stylesheet language for web design</span>
             </li>
             <li>
-              <b>Java</b> - Object-oriented programming language (I&apos;ve been using it with <b>Gradle</b> for QA
-              Automation frameworks&apos; development)
+              <b>Java</b>
+              <span className="cv-skill-desc">
+                {" "}
+                - Object-oriented programming language (I&apos;ve been using it with <b>Gradle</b> for QA
+                Automation frameworks&apos; development)
+              </span>
             </li>
             <li>
-              <b>JavaScript</b> - Programming language for web interactivity
+              <b>JavaScript</b>
+              <span className="cv-skill-desc"> - Programming language for web interactivity</span>
             </li>
             <li>
-              <b>TypeScript</b> - Typed superset of JavaScript for scalable development
+              <b>TypeScript</b>
+              <span className="cv-skill-desc"> - Typed superset of JavaScript for scalable development</span>
             </li>
             <li>
-              <b>Lua</b> - Lightweight scripting language for game development
+              <b>Lua</b>
+              <span className="cv-skill-desc"> - Lightweight scripting language for game development</span>
             </li>
             <li>
-              <b>Godot Scripting (GDS)</b> - Custom language for Godot engine
+              <b>Godot Scripting (GDS)</b>
+              <span className="cv-skill-desc"> - Custom language for Godot engine</span>
             </li>
           </ul>
 
           <h3>
             <b>QA Tools &amp; Methodologies</b>
           </h3>
-          <ul>
+          <ul className="cv-skills-ul">
             <li>
-              <b>Appium</b> - Mobile app automation testing tool
+              <b>Appium</b>
+              <span className="cv-skill-desc"> - Mobile app automation testing tool</span>
             </li>
             <li>
-              <b>Cucumber</b> - Tool for behavior-driven development (BDD)
+              <b>Cucumber</b>
+              <span className="cv-skill-desc"> - Tool for behavior-driven development (BDD)</span>
             </li>
             <li>
-              <b>WebdriverIO</b> - Automation framework for web testing
+              <b>WebdriverIO</b>
+              <span className="cv-skill-desc"> - Automation framework for web testing</span>
             </li>
             <li>
-              <b>Gradle</b> - Build automation tool for Java projects
+              <b>Gradle</b>
+              <span className="cv-skill-desc"> - Build automation tool for Java projects</span>
             </li>
             <li>
-              <b>Gherkin</b> - Language for writing BDD test cases
+              <b>Gherkin</b>
+              <span className="cv-skill-desc"> - Language for writing BDD test cases</span>
             </li>
             <li>
-              <b>TestLodge</b> - Test case management tool
+              <b>TestLodge</b>
+              <span className="cv-skill-desc"> - Test case management tool</span>
             </li>
             <li>
-              <b>BrowserStack</b> - Cross-browser testing platform
+              <b>BrowserStack</b>
+              <span className="cv-skill-desc"> - Cross-browser testing platform</span>
             </li>
             <li>
-              <b>Issue tracking (e.g., Jira, Trello, Github Projects)</b> - Tools for tracking bugs and tasks
+              <b>Issue tracking (e.g., Jira, Trello, Github Projects)</b>
+              <span className="cv-skill-desc"> - Tools for tracking bugs and tasks</span>
             </li>
             <li>
-              <b>Test plan creation</b> - Writing structured test strategies
+              <b>Test plan creation</b>
+              <span className="cv-skill-desc"> - Writing structured test strategies</span>
             </li>
             <li>
-              <b>Agile methodologies</b> - Framework for iterative project management
+              <b>Agile methodologies</b>
+              <span className="cv-skill-desc"> - Framework for iterative project management</span>
             </li>
             <li>
-              <b>Regression &amp; unit testing</b> - Techniques to validate code functionality
+              <b>Regression &amp; unit testing</b>
+              <span className="cv-skill-desc"> - Techniques to validate code functionality</span>
             </li>
             <li>
-              <b>Localisation QA</b> - Testing for language and regional correctness
+              <b>Localisation QA</b>
+              <span className="cv-skill-desc"> - Testing for language and regional correctness</span>
             </li>
           </ul>
 
           <h3>
             <b>Game Dev Frameworks, Engines &amp; SDKs</b>
           </h3>
-          <ul>
+          <ul className="cv-skills-ul">
             <li>
-              <b>Unity</b> - Game engine for 2D/3D development with C#
+              <b>Unity</b>
+              <span className="cv-skill-desc"> - Game engine for 2D/3D development with C#</span>
             </li>
             <li>
-              <b>Godot</b> - Game engine with GDScript support
+              <b>Godot</b>
+              <span className="cv-skill-desc"> - Game engine with GDScript support</span>
             </li>
             <li>
-              <b>Playdate</b> - Game dev SDK for the Playdate console with Lua and/or C
+              <b>Playdate</b>
+              <span className="cv-skill-desc"> - Game dev SDK for the Playdate console with Lua and/or C</span>
             </li>
             <li>
-              <b>LÖVE2D</b> - Game engine with Lua
+              <b>LÖVE2D</b>
+              <span className="cv-skill-desc"> - Game engine with Lua</span>
             </li>
           </ul>
 
           <h3>
             <b>Design &amp; Multimedia</b>
           </h3>
-          <ul>
+          <ul className="cv-skills-ul">
             <li>
-              <b>Adobe Illustrator</b> - Vector graphic design software
+              <b>Adobe Illustrator</b>
+              <span className="cv-skill-desc"> - Vector graphic design software</span>
             </li>
             <li>
-              <b>Photoshop</b> - Image editing and design software
+              <b>Photoshop</b>
+              <span className="cv-skill-desc"> - Image editing and design software</span>
             </li>
             <li>
-              <b>Aseprite</b> - Pixel art tool for sprite creation
+              <b>Aseprite</b>
+              <span className="cv-skill-desc"> - Pixel art tool for sprite creation</span>
             </li>
             <li>
-              <b>Krita</b> - Free image editing and design software
+              <b>Krita</b>
+              <span className="cv-skill-desc"> - Free image editing and design software</span>
             </li>
             <li>
-              <b>Blender</b> - 3D modeling and animation tool
+              <b>Blender</b>
+              <span className="cv-skill-desc"> - 3D modeling and animation tool</span>
             </li>
             <li>
-              <b>GIMP</b> - Open-source image manipulation program
+              <b>GIMP</b>
+              <span className="cv-skill-desc"> - Open-source image manipulation program</span>
             </li>
             <li>
-              <b>Prepress preparation</b> - Setup for print production
+              <b>Prepress preparation</b>
+              <span className="cv-skill-desc"> - Setup for print production</span>
             </li>
           </ul>
 
           <h3>
             <b>Data Analytics &amp; Product Tools</b>
           </h3>
-          <ul>
+          <ul className="cv-skills-ul">
             <li>
-              <b>Amplitude</b> - Analytics platform for product insights
+              <b>Amplitude</b>
+              <span className="cv-skill-desc"> - Analytics platform for product insights</span>
             </li>
             <li>
-              <b>Braze</b> - Customer engagement platform for marketing automation
+              <b>Braze</b>
+              <span className="cv-skill-desc"> - Customer engagement platform for marketing automation</span>
             </li>
           </ul>
 
           <h3>
             <b>Project Management</b>
           </h3>
-          <ul>
+          <ul className="cv-skills-ul">
             <li>
-              <b>Kanban</b> - Visual workflow management method
+              <b>Kanban</b>
+              <span className="cv-skill-desc"> - Visual workflow management method</span>
             </li>
             <li>
-              <b>Trello</b> - Task management and collaboration tool
+              <b>Trello</b>
+              <span className="cv-skill-desc"> - Task management and collaboration tool</span>
             </li>
             <li>
-              <b>Jira</b> - Issue and project tracking software
+              <b>Jira</b>
+              <span className="cv-skill-desc"> - Issue and project tracking software</span>
             </li>
             <li>
-              <b>GitHub Projects</b> - GH integrated project management tool for organizing tasks, tracking progress,
-              and collaborating on projects.
+              <b>GitHub Projects</b>
+              <span className="cv-skill-desc">
+                {" "}
+                - GH integrated project management tool for organizing tasks, tracking progress, and collaborating on
+                projects.
+              </span>
             </li>
           </ul>
         </div>
@@ -191,18 +238,18 @@ export function CvContactPage() {
           <p>2015, Bachelor in Electromechanics, UTU Arroyo Seco, Uruguay.</p>
           <h2>Training &amp; Courses</h2>
           <ul>
-            <li>2016 - Graphic Design (BIOS Uruguay)</li>
-            <li>2017 - QA Engineering (Udemy)</li>
-            <li>2018 - Game Design (BIOS Uruguay, Udemy)</li>
-            <li>2021 - Game Development in Unity (Unity Learn, Udemy)</li>
-            <li>2022 - Automation QA with Appium (Udemy)</li>
-            <li>2022 - Full-Stack Web Dev Bootcamp (Codecademy, Udemy)</li>
-            <li>2023 - Full-Stack Web Dev Bootcamp (Hack A Boss Spain)</li>
-            <li>2024 - Game Development in Godot (Udemy, Self taught)</li>
-            <li>2024 - Digital Products &amp; Video Games Marketing (Udemy, Self taught)</li>
-            <li>2024 - Game Development in Playdate SDK (Playdate Dev, Self taught)</li>
-            <li>2025 - Professional video games&apos; narrative &amp; character design (Udemy)</li>
             <li>2025 - Still learning new stuff!</li>
+            <li>2025 - Professional video games&apos; narrative &amp; character design (Udemy)</li>
+            <li>2024 - Game Development in Playdate SDK (Playdate Dev, Self taught)</li>
+            <li>2024 - Digital Products &amp; Video Games Marketing (Udemy, Self taught)</li>
+            <li>2024 - Game Development in Godot (Udemy, Self taught)</li>
+            <li>2023 - Full-Stack Web Dev Bootcamp (Hack A Boss Spain)</li>
+            <li>2022 - Full-Stack Web Dev Bootcamp (Codecademy, Udemy)</li>
+            <li>2022 - Automation QA with Appium (Udemy)</li>
+            <li>2021 - Game Development in Unity (Unity Learn, Udemy)</li>
+            <li>2018 - Game Design (BIOS Uruguay, Udemy)</li>
+            <li>2017 - QA Engineering (Udemy)</li>
+            <li>2016 - Graphic Design (BIOS Uruguay)</li>
           </ul>
           <h2>Languages</h2>
           <ul>
@@ -223,7 +270,7 @@ export function CvContactPage() {
       </div>
 
       <h3>Contact &amp; Media</h3>
-      <div className="grid_container_outer">
+      <div className="grid_container_outer cv-contact-outer">
         <div className="grid_container_inner_left">
           <p>Phone number - (+34) 652 538 151</p>
           <p>
@@ -231,7 +278,8 @@ export function CvContactPage() {
             <a href="mailto:martin.rosa@carcamusalabs.com">martin.rosa@carcamusalabs.com</a>
           </p>
           <p>
-            email (For inquiries or shoutouts to the tribe) - <a href="mailto:nitram@carcamusalabs.com">nitram@carcamusalabs.com</a>
+            email (For inquiries or shoutouts to the tribe) -{" "}
+            <a href="mailto:nitram@carcamusalabs.com">nitram@carcamusalabs.com</a>
           </p>
           <p>Toledo, Spain (All Spain &amp; EU work permits in order)</p>
         </div>

@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useCubeAnimation } from "../hooks/useCubeAnimation";
+import { HomeMobileNav } from "../components/HomeMobileNav";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
 
@@ -14,6 +15,7 @@ export function HomePage() {
   return (
     <>
       <SiteHeader langLinkId="lang_logo" />
+      <HomeMobileNav />
       <div id="cube-wrapper" ref={wrapperRef}>
         <div className="cube" id="cube" ref={cubeRef}>
           <div className="face">

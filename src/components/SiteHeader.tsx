@@ -3,7 +3,12 @@ export function SiteHeader({ langLinkId }: { langLinkId?: string }) {
     <header>
       <div className="logo_container" />
       <h1 className="main_title">
-        CARCAMUSA_LABS<span className="by"> by Martin Rosa</span>
+        <span className="main_title_desktop">CARCAMUSA_LABS</span>
+        <span className="main_title_mobile" aria-hidden="true">
+          <span className="main_title_mobile_line main_title_mobile_line1">CARCAMUSA</span>
+          <span className="main_title_mobile_line main_title_mobile_line2">_LABS</span>
+        </span>
+        <span className="by"> by Martin Rosa</span>
       </h1>
       <nav className="menu">
         <ul>
