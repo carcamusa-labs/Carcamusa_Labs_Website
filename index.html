@@ -1,55 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://use.typekit.net/rku3mok.css">
-        <link rel="stylesheet" href="./assets/visuals/style.css">
-        <link rel="icon" type="image/png" sizes="32x32" href="./assets/visuals/logos/carcamusa_labs_32x32_pagelogo.png">
-        <link rel="shortcut icon" href="carcamusa_labs_32x32_pagelogo.ico">
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="./assets/scripts/global.js"></script>
-        <script src="./assets/scripts/cube.js" defer></script>
-        <title>Carcamusa_Labs</title>
-    </head>
-
-    <body translate="no" onload="init()">
-      <header>
-        <div class="logo_container"></div>
-        <h1 class="main_title">CARCAMUSA_LABS<span class="by"> by Martin Rosa</span></h1>
-
-        <nav class="menu">
-          <ul>
-            <li><a href="#" id="lang_logo">あ / A</a>
-              <ul>
-                <li class="button_EN"><a href="#">🇺🇸</a></li>
-                <!-- NOT READY TO BE IMPLEMENTED YET -->
-                <!-- <li class="button_ES"><a href="#">🇪🇸</a></li> -->
-                <!-- <li class="button_PT"><a href="#">🇵🇹</a></li> -->
-              </ul>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
-      <div id="cube-wrapper">
-        <div class='cube' id="cube">
-            <div class='face'><a href="./1_about_carcamusa_labs.html">1. About<br>Carcamusa_Labs</a></div>
-            <div class='face'><a href="./2_cv_contact.html">2. CV,<br>Contact<br>& Media</a></div> 
-            <div class='face'><a href="./3_projects.html">3. Projects</a></div> 
-            <div class='face'><a href="./4_artwork_assets.html">4. Artwork<br>& Other Assets</a></div> 
-            <div class='face'><a href="./5_store.html">5. Store</a></div> 
-            <div class='face'><a href="./6_referrals_mentors.html">6. Referrals<br>& Mentors</a></div> 
-        </div>
-      </div>
-
-      <footer>
-        <div>
-          <p><span class="date"></span> - CARCAMUSA_LABS by Martin Rosa (Nitram)</p>
-          <p>All rights reserved</p>
-        </div>
-      </footer>
-    </body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://use.typekit.net/rku3mok.css" />
+    <link rel="stylesheet" href="/assets/visuals/style.css" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/visuals/logos/carcamusa_labs_32x32_pagelogo.png" />
+    <link rel="shortcut icon" href="/carcamusa_labs_32x32_pagelogo.ico" />
+    <title>Carcamusa_Labs</title>
+  </head>
+  <body translate="no">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>

@@ -26,7 +26,7 @@
 }
 
 #links_initial-paragraph-container {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: inherit;
   padding: max(16px, env(safe-area-inset-top, 0px)) clamp(12px, 4vw, 28px) 20px;
   max-width: 38rem;
   margin-inline: auto;
@@ -46,7 +46,7 @@
 
 .links_cl-button {
   color: white;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: inherit;
   font-weight: bold;
   margin: 7px 0;
   min-height: 70px;
@@ -196,11 +196,16 @@
   display: none;
 }
 
+html {
+  height: 100%;
+}
+
 body {
   display: flex;
   flex-direction: column;
-  font-family: "fira-sans-2", sans-serif;
-  height: 100vh;
+  font-family: "Source Sans 3", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  min-height: 100vh;
+  min-height: 100dvh;
   width: 100%;
   background-color: black;
   color: whitesmoke;
@@ -215,12 +220,30 @@ body {
   scrollbar-track-color: #1e1e1e;
 }
 
+/* React root: header / content / footer live here; keeps footer at bottom on short pages */
+#root {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+  min-height: 100dvh;
+}
+
 body.links-page {
   min-height: 100vh;
   height: auto;
   overflow-x: hidden;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
+}
+
+body.links-page #root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  width: 100%;
 }
 
 a {
@@ -233,6 +256,8 @@ a:visited {
 }
 
 main {
+  flex: 1 1 auto;
+  min-height: 0;
   justify-content: center;
   padding: 0 50px;
 }
@@ -249,7 +274,7 @@ h2 {
 p, ul {
   padding-top: 20px;
   font-size: 1.2rem;
-  line-height: 1.4rem;
+  line-height: 1.55;
 }
 
 li {
@@ -291,6 +316,7 @@ header {
   top: 15px;
   justify-content: center;
   margin-left: 30px;
+  font-family: "fira-sans-2", sans-serif;
   font-weight: 400;
   font-size: 5rem;
 }
@@ -415,11 +441,16 @@ h3 {
 }
 
 #cube-wrapper {
-  width: 300px; /* Área más grande */
-  height: 300px;
+  position: relative;
+  flex: 1 1 auto;
+  width: 100%;
+  min-height: min(52vh, 26rem);
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: clamp(2rem, 6vmin, 5rem) clamp(1rem, 4vw, 3rem);
+  box-sizing: border-box;
+  overflow: visible;
   cursor: grab; /* Indica que se puede arrastrar */
 }
 
@@ -428,9 +459,10 @@ h3 {
 }
 
 
-.cube, .cube * {
+.cube,
+.cube * {
   position: absolute;
-  top: 25vh;
+  top: 50%;
   left: 50%;
 }
 
@@ -756,6 +788,26 @@ footer {
   background-color: black;
   color: whitesmoke;
   border-top: 1px solid rgba(0, 255, 255, .5);
+  font-size: 0.95rem;
+  line-height: 1.45;
+}
+
+/* Store: Romero photo — larger than about selfie, centered */
+.store_romero_wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  margin: 1.5rem 0 2rem;
+}
+
+.store_romero_photo {
+  width: min(92vw, 440px);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-inline: auto;
+  border-radius: 4px;
 }
 
 footer div {
