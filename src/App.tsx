@@ -19,6 +19,7 @@ export default function App() {
       <Route path="/4_artwork_assets.html" element={<ArtworkAssetsPage />} />
       <Route path="/5_store.html" element={<StorePage />} />
       <Route path="/6_referrals_mentors.html" element={<ReferralsPage />} />
+      <Route path="/links" element={<LinksPage />} />
       <Route path="/links.html" element={<LinksPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
