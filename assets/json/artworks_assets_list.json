@@ -245,21 +245,6 @@
         "stack": "Illustrator"
     },
     {
-        "src": "assets/visuals/artwork_assets/mockup2_autorosa.png",
-        "used_in": "Mockups",
-        "stack": "Photoshop"
-    },
-    {
-        "src": "assets/visuals/artwork_assets/mockup2_autorosa_bg.png",
-        "used_in": "Mockups",
-        "stack": "Photoshop"
-    },
-    {
-        "src": "assets/visuals/artwork_assets/mockup2_autorosa_flyer.png",
-        "used_in": "Mockups",
-        "stack": "Photoshop"
-    },
-    {
         "src": "assets/visuals/artwork_assets/mockup3_personal_card1.png",
         "used_in": "Mockups",
         "stack": "Photoshop"
@@ -300,29 +285,14 @@
         "stack": "Photoshop"
     },
     {
-        "src": "assets/visuals/artwork_assets/mockup11_monobier.png",
-        "used_in": "Mockups",
-        "stack": "Photoshop"
-    },
-    {
         "src": "assets/visuals/artwork_assets/mockup12_mxm.png",
         "used_in": "Mockups",
         "stack": "Photoshop"
     },
     {
-        "src": "assets/visuals/artwork_assets/mockup13_sushiplace.png",
-        "used_in": "Mockups",
-        "stack": "Illustrator"
-    },
-    {
         "src": "assets/visuals/artwork_assets/mockup14_dystopian_govhouse.png",
         "used_in": "Random Artworks",
         "stack": "Photoshop"
-    },
-    {
-        "src": "assets/visuals/artwork_assets/mockup15_example_flyer.png",
-        "used_in": "Mockups",
-        "stack": "Illustrator"
     },
     {
         "src": "assets/visuals/artwork_assets/mockup16_garlik_stinkah.png",

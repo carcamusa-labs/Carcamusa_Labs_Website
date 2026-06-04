@@ -2,11 +2,14 @@ import { useEffect } from "react";
 import { HomeHexRoulette } from "../components/HomeHexRoulette";
 import { SiteFooter } from "../components/SiteFooter";
 import { SiteHeader } from "../components/SiteHeader";
+import { useTranslation } from "../i18n/useTranslation";
 
 export function HomePage() {
+  const { t } = useTranslation();
+
   useEffect(() => {
-    document.title = "Carcamusa_Labs";
-  }, []);
+    document.title = t("pageTitle.home");
+  }, [t]);
 
   return (
     <>
