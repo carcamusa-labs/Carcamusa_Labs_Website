@@ -1,4 +1,6 @@
-export function SiteHeader({ langLinkId }: { langLinkId?: string }) {
+import { LanguageSelector } from "./LanguageSelector";
+
+export function SiteHeader({ langLinkId }: { langLinkId?: string } = {}) {
   return (
     <header>
       <div className="logo_container" />
@@ -10,20 +12,7 @@ export function SiteHeader({ langLinkId }: { langLinkId?: string }) {
         </span>
         <span className="by"> by Martin Rosa</span>
       </h1>
-      <nav className="menu">
-        <ul>
-          <li>
-            <a href="#" id={langLinkId}>
-              あ / A
-            </a>
-            <ul>
-              <li className="button_EN">
-                <a href="#">🇺🇸</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+      <LanguageSelector langLinkId={langLinkId} />
     </header>
   );
 }

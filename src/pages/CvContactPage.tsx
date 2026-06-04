@@ -1,20 +1,23 @@
 import { InnerPageLayout } from "../components/InnerPageLayout";
+import { useTranslation } from "../i18n/useTranslation";
 
 export function CvContactPage() {
+  const { t } = useTranslation();
+
   return (
-    <InnerPageLayout title="2. Contact & Media">
-      <h2>[ CV &amp; CONTACT ]</h2>
-      <h3>CV Download</h3>
+    <InnerPageLayout titleKey="pageTitle.cv">
+      <h2>{t("cv.heading")}</h2>
+      <h3>{t("cv.download")}</h3>
       <div className="cv-download-wrap">
         <a
           href="/assets/visuals/downloadables/CV-Martin-Rosa_QA-Engineer_(EN).pdf"
           className="download_a"
           download
         >
-          <div className="download_button">CV Download (PDF - 2mb)</div>
+          <div className="download_button">{t("cv.downloadButton")}</div>
         </a>
       </div>
-      <h3 className="cv-preview-heading">CV Preview</h3>
+      <h3 className="cv-preview-heading">{t("cv.preview")}</h3>
       <embed
         className="cv"
         src="/assets/visuals/downloadables/CV-Martin-Rosa_QA-Engineer_(EN).pdf"
@@ -22,276 +25,155 @@ export function CvContactPage() {
         height="700px"
         type="application/pdf"
       />
-      <h3>More detailed information</h3>
+      <h3>{t("cv.moreInfo")}</h3>
       <div className="grid_container_outer cv-skills-outer">
         <div className="grid_container_inner_left">
-          <h2>Skills &amp; Stack</h2>
+          <h2>{t("cv.skillsStack")}</h2>
           <h3>
-            <b>Programming &amp; Tools</b>
+            <b>{t("cv.programmingTools")}</b>
           </h3>
           <ul className="cv-skills-ul">
             <li>
-              <b>Git</b>
-              <span className="cv-skill-desc"> - Version control system for tracking code changes</span>
+              <b>Git</b> · <b>GitHub</b> · <b>GitLab</b>
             </li>
             <li>
-              <b>GitHub</b>
-              <span className="cv-skill-desc"> - Cloud-based platform for code hosting and collaboration</span>
+              <b>HTML</b> · <b>CSS</b> · <b>JavaScript</b> · <b>TypeScript</b>
             </li>
             <li>
-              <b>GitLab</b>
-              <span className="cv-skill-desc"> - DevOps platform for code repository management</span>
+              <b>React</b> · <b>Vue</b>
             </li>
             <li>
-              <b>HTML</b>
-              <span className="cv-skill-desc"> - Markup language for structuring web content</span>
+              <b>Java</b> ({t("cv.skillJavaNote")})
             </li>
             <li>
-              <b>CSS</b>
-              <span className="cv-skill-desc"> - Stylesheet language for web design</span>
+              <b>Lua</b> · <b>Godot Scripting (GDS)</b>
             </li>
             <li>
-              <b>Java</b>
-              <span className="cv-skill-desc">
-                {" "}
-                - Object-oriented programming language (I&apos;ve been using it with <b>Gradle</b> for QA
-                Automation frameworks&apos; development)
-              </span>
-            </li>
-            <li>
-              <b>JavaScript</b>
-              <span className="cv-skill-desc"> - Programming language for web interactivity</span>
-            </li>
-            <li>
-              <b>TypeScript</b>
-              <span className="cv-skill-desc"> - Typed superset of JavaScript for scalable development</span>
-            </li>
-            <li>
-              <b>Lua</b>
-              <span className="cv-skill-desc"> - Lightweight scripting language for game development</span>
-            </li>
-            <li>
-              <b>Godot Scripting (GDS)</b>
-              <span className="cv-skill-desc"> - Custom language for Godot engine</span>
+              <b>Xcode</b> · <b>Android Studio</b> · <b>iOS Simulators</b>
             </li>
           </ul>
 
           <h3>
-            <b>QA Tools &amp; Methodologies</b>
+            <b>{t("cv.qaTools")}</b>
           </h3>
           <ul className="cv-skills-ul">
             <li>
-              <b>Appium</b>
-              <span className="cv-skill-desc"> - Mobile app automation testing tool</span>
+              <b>Appium</b> · <b>Cucumber</b> · <b>WebdriverIO</b> · <b>Gradle</b> · <b>Gherkin</b>
             </li>
             <li>
-              <b>Cucumber</b>
-              <span className="cv-skill-desc"> - Tool for behavior-driven development (BDD)</span>
+              <b>TestLodge</b> · <b>Testomat.io</b> · <b>BrowserStack</b> · <b>Allure</b>
             </li>
+            <li>{t("cv.skillQaLine3")}</li>
+          </ul>
+
+          <h3>
+            <b>{t("cv.gameDev")}</b>
+          </h3>
+          <ul className="cv-skills-ul">
             <li>
-              <b>WebdriverIO</b>
-              <span className="cv-skill-desc"> - Automation framework for web testing</span>
-            </li>
-            <li>
-              <b>Gradle</b>
-              <span className="cv-skill-desc"> - Build automation tool for Java projects</span>
-            </li>
-            <li>
-              <b>Gherkin</b>
-              <span className="cv-skill-desc"> - Language for writing BDD test cases</span>
-            </li>
-            <li>
-              <b>TestLodge</b>
-              <span className="cv-skill-desc"> - Test case management tool</span>
-            </li>
-            <li>
-              <b>BrowserStack</b>
-              <span className="cv-skill-desc"> - Cross-browser testing platform</span>
-            </li>
-            <li>
-              <b>Issue tracking (e.g., Jira, Trello, Github Projects)</b>
-              <span className="cv-skill-desc"> - Tools for tracking bugs and tasks</span>
-            </li>
-            <li>
-              <b>Test plan creation</b>
-              <span className="cv-skill-desc"> - Writing structured test strategies</span>
-            </li>
-            <li>
-              <b>Agile methodologies</b>
-              <span className="cv-skill-desc"> - Framework for iterative project management</span>
-            </li>
-            <li>
-              <b>Regression &amp; unit testing</b>
-              <span className="cv-skill-desc"> - Techniques to validate code functionality</span>
-            </li>
-            <li>
-              <b>Localisation QA</b>
-              <span className="cv-skill-desc"> - Testing for language and regional correctness</span>
+              <b>Unity</b> · <b>Godot</b> · <b>Playdate</b> · <b>LÖVE2D</b>
             </li>
           </ul>
 
           <h3>
-            <b>Game Dev Frameworks, Engines &amp; SDKs</b>
+            <b>{t("cv.designMultimedia")}</b>
           </h3>
           <ul className="cv-skills-ul">
             <li>
-              <b>Unity</b>
-              <span className="cv-skill-desc"> - Game engine for 2D/3D development with C#</span>
-            </li>
-            <li>
-              <b>Godot</b>
-              <span className="cv-skill-desc"> - Game engine with GDScript support</span>
-            </li>
-            <li>
-              <b>Playdate</b>
-              <span className="cv-skill-desc"> - Game dev SDK for the Playdate console with Lua and/or C</span>
-            </li>
-            <li>
-              <b>LÖVE2D</b>
-              <span className="cv-skill-desc"> - Game engine with Lua</span>
-            </li>
-          </ul>
-
-          <h3>
-            <b>Design &amp; Multimedia</b>
-          </h3>
-          <ul className="cv-skills-ul">
-            <li>
-              <b>Adobe Illustrator</b>
-              <span className="cv-skill-desc"> - Vector graphic design software</span>
-            </li>
-            <li>
-              <b>Photoshop</b>
-              <span className="cv-skill-desc"> - Image editing and design software</span>
-            </li>
-            <li>
-              <b>Aseprite</b>
-              <span className="cv-skill-desc"> - Pixel art tool for sprite creation</span>
-            </li>
-            <li>
-              <b>Krita</b>
-              <span className="cv-skill-desc"> - Free image editing and design software</span>
-            </li>
-            <li>
-              <b>Blender</b>
-              <span className="cv-skill-desc"> - 3D modeling and animation tool</span>
-            </li>
-            <li>
+              <b>Adobe Illustrator</b> · <b>Photoshop</b> · <b>Aseprite</b> · <b>Krita</b> · <b>Blender</b> ·{" "}
               <b>GIMP</b>
-              <span className="cv-skill-desc"> - Open-source image manipulation program</span>
             </li>
             <li>
-              <b>Prepress preparation</b>
-              <span className="cv-skill-desc"> - Setup for print production</span>
+              <b>{t("cv.prepress")}</b>
             </li>
           </ul>
 
           <h3>
-            <b>Data Analytics &amp; Product Tools</b>
+            <b>{t("cv.dataAnalytics")}</b>
           </h3>
           <ul className="cv-skills-ul">
             <li>
-              <b>Amplitude</b>
-              <span className="cv-skill-desc"> - Analytics platform for product insights</span>
-            </li>
-            <li>
-              <b>Braze</b>
-              <span className="cv-skill-desc"> - Customer engagement platform for marketing automation</span>
+              <b>Amplitude</b> · <b>Braze</b>
             </li>
           </ul>
 
           <h3>
-            <b>Project Management</b>
+            <b>{t("cv.projectManagement")}</b>
           </h3>
           <ul className="cv-skills-ul">
             <li>
-              <b>Kanban</b>
-              <span className="cv-skill-desc"> - Visual workflow management method</span>
-            </li>
-            <li>
-              <b>Trello</b>
-              <span className="cv-skill-desc"> - Task management and collaboration tool</span>
-            </li>
-            <li>
-              <b>Jira</b>
-              <span className="cv-skill-desc"> - Issue and project tracking software</span>
-            </li>
-            <li>
-              <b>GitHub Projects</b>
-              <span className="cv-skill-desc">
-                {" "}
-                - GH integrated project management tool for organizing tasks, tracking progress, and collaborating on
-                projects.
-              </span>
+              <b>Kanban</b> · <b>Trello</b> · <b>Jira</b> · <b>GH Projects</b> · <b>Scrum</b> · <b>Agile</b>
             </li>
           </ul>
         </div>
 
         <div className="grid_container_inner_right">
-          <h2>My profile</h2>
-          <p>
-            Dedicated QA Engineer with a strong focus on delivering clear, concrete, and concise results. Passionate
-            about leveraging new technologies to enhance testing processes and continuously expanding my tech stack.
-            Driven by a love for video games and a commitment to ensuring exceptional quality in every project.
-          </p>
-          <h2>Education</h2>
-          <p>2015, Bachelor in Electromechanics, UTU Arroyo Seco, Uruguay.</p>
-          <h2>Training &amp; Courses</h2>
+          <h2>{t("cv.myProfile")}</h2>
+          <p>{t("cv.profileText")}</p>
+          <h2>{t("cv.education")}</h2>
+          <p>{t("cv.educationLine")}</p>
+          <h2>{t("cv.training")}</h2>
           <ul>
-            <li>2025 - Still learning new stuff!</li>
-            <li>2025 - Professional video games&apos; narrative &amp; character design (Udemy)</li>
-            <li>2024 - Game Development in Playdate SDK (Playdate Dev, Self taught)</li>
-            <li>2024 - Digital Products &amp; Video Games Marketing (Udemy, Self taught)</li>
-            <li>2024 - Game Development in Godot (Udemy, Self taught)</li>
-            <li>2023 - Full-Stack Web Dev Bootcamp (Hack A Boss Spain)</li>
-            <li>2022 - Full-Stack Web Dev Bootcamp (Codecademy, Udemy)</li>
-            <li>2022 - Automation QA with Appium (Udemy)</li>
-            <li>2021 - Game Development in Unity (Unity Learn, Udemy)</li>
-            <li>2018 - Game Design (BIOS Uruguay, Udemy)</li>
-            <li>2017 - QA Engineering (Udemy)</li>
-            <li>2016 - Graphic Design (BIOS Uruguay)</li>
+            <li>{t("cv.training1")}</li>
+            <li>{t("cv.training2")}</li>
+            <li>{t("cv.training3")}</li>
+            <li>{t("cv.training4")}</li>
+            <li>{t("cv.training5")}</li>
+            <li>{t("cv.training6")}</li>
+            <li>{t("cv.training7")}</li>
+            <li>{t("cv.training8")}</li>
+            <li>{t("cv.training9")}</li>
+            <li>{t("cv.training10")}</li>
+            <li>{t("cv.training11")}</li>
+            <li>{t("cv.training12")}</li>
           </ul>
-          <h2>Languages</h2>
+          <h2>{t("cv.languages")}</h2>
           <ul>
             <li>
-              <b>Spanish</b>: Native
+              <b>{t("cv.langNameSpanish")}</b>: {t("cv.langSpanish")}
             </li>
             <li>
-              <b>English</b>: Advanced (Bilingual proficiency)
+              <b>{t("cv.langNameEnglish")}</b>: {t("cv.langEnglish")}
             </li>
             <li>
-              <b>Portuguese</b>: Intermediate (Conversational proficiency)
+              <b>{t("cv.langNamePortuguese")}</b>: {t("cv.langPortuguese")}
             </li>
             <li>
-              <b>Japanese</b>: Pre-intermediate (Basic conversational)
+              <b>{t("cv.langNameJapanese")}</b>: {t("cv.langJapanese")}
+            </li>
+            <li>
+              <b>{t("cv.langNameItalian")}</b>: {t("cv.langItalian")}
+            </li>
+            <li>
+              <b>{t("cv.langNamePolish")}</b>: {t("cv.langPolish")}
             </li>
           </ul>
         </div>
       </div>
 
-      <h3>Contact &amp; Media</h3>
+      <h3>{t("cv.contactMedia")}</h3>
       <div className="grid_container_outer cv-contact-outer">
         <div className="grid_container_inner_left">
-          <p>Phone number - (+34) 652 538 151</p>
+          <p>{t("cv.phone")}</p>
           <p>
-            email (Professional Contact &amp; Work Related) -{" "}
+            {t("cv.emailPro")}{" "}
             <a href="mailto:martin.rosa@carcamusalabs.com">martin.rosa@carcamusalabs.com</a>
           </p>
           <p>
-            email (For inquiries or shoutouts to the tribe) -{" "}
+            {t("cv.emailPersonal")}{" "}
             <a href="mailto:nitram@carcamusalabs.com">nitram@carcamusalabs.com</a>
           </p>
-          <p>Toledo, Spain (All Spain &amp; EU work permits in order)</p>
+          <p>{t("cv.location")}</p>
         </div>
         <div className="grid_container_inner_right">
           <h3>
-            <b>You can also find me on...</b>
+            <b>{t("cv.findMe")}</b>
           </h3>
           <p>
             LinkedIn - <a href="https://www.linkedin.com/in/martin-rosa/">in/martin-rosa/</a>
           </p>
           <p>
-            Instagram (for projects&apos; updates) -{" "}
+            {t("cv.instagramUpdates")}{" "}
             <a href="https://www.instagram.com/carcamusa_labs/">@carcamusa_labs</a>
           </p>
           <p>

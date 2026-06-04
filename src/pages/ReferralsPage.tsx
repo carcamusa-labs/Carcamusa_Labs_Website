@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { InnerPageLayout } from "../components/InnerPageLayout";
+import { useTranslation } from "../i18n/useTranslation";
 import { assetUrl } from "../utils/assetUrl";
 
 interface ReferralEntry {
@@ -13,6 +14,7 @@ interface ReferralEntry {
 }
 
 export function ReferralsPage() {
+  const { t } = useTranslation();
   const [entries, setEntries] = useState<ReferralEntry[]>([]);
 
   useEffect(() => {
@@ -35,12 +37,9 @@ export function ReferralsPage() {
   const qaIcon = assetUrl("assets/visuals/logos/qa_icon.png");
 
   return (
-    <InnerPageLayout title="6. Referrals & Mentors">
-      <h2>[ REFERRALS &amp; MENTORS ]</h2>
-      <h3>
-        Awesome people who have taught and helped me throughout my journey, and with whom I&apos;ve also had the
-        pleasure of working
-      </h3>
+    <InnerPageLayout titleKey="pageTitle.referrals">
+      <h2>{t("referrals.heading")}</h2>
+      <h3>{t("referrals.subheading")}</h3>
 
       <div className="referrals_referralcards_container">
         {entries.map((entry) => (
@@ -60,7 +59,7 @@ export function ReferralsPage() {
                     <img
                       className="referrals_card_referral_lk"
                       src={assetUrl("assets/visuals/logos/linkedin_logo.png")}
-                      alt="LinkedIn"
+                      alt={t("common.linkedIn")}
                     />
                   </a>
                 ) : null}
@@ -69,7 +68,7 @@ export function ReferralsPage() {
                     <img
                       className="referrals_card_referral_gh"
                       src={assetUrl("assets/visuals/logos/github_logo.png")}
-                      alt="GitHub"
+                      alt={t("common.github")}
                     />
                   </a>
                 ) : null}
@@ -78,7 +77,7 @@ export function ReferralsPage() {
                     <img
                       className="referrals_card_referral_web"
                       src={assetUrl("assets/visuals/logos/website_logo.png")}
-                      alt="Website"
+                      alt={t("common.website")}
                     />
                   </a>
                 ) : null}

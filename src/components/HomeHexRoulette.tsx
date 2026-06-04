@@ -1,20 +1,25 @@
 import type { PointerEvent } from "react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "../i18n/useTranslation";
 
-interface HexSection {
-  to: string;
-  label: string;
-}
+const SECTION_ROUTES = [
+  "/1_about_carcamusa_labs.html",
+  "/2_cv_contact.html",
+  "/3_projects.html",
+  "/4_artwork_assets.html",
+  "/5_store.html",
+  "/6_referrals_mentors.html",
+] as const;
 
-const SECTIONS: HexSection[] = [
-  { to: "/1_about_carcamusa_labs.html", label: "1. About" },
-  { to: "/2_cv_contact.html", label: "2. CV" },
-  { to: "/3_projects.html", label: "3. Projects" },
-  { to: "/4_artwork_assets.html", label: "4. Artwork" },
-  { to: "/5_store.html", label: "5. Store" },
-  { to: "/6_referrals_mentors.html", label: "6. Referrals" },
-];
+const SECTION_LABEL_KEYS = [
+  "nav.about",
+  "nav.cv",
+  "nav.projects",
+  "nav.artwork",
+  "nav.store",
+  "nav.referrals",
+] as const;
 
 /** Idle spin rate (deg/s) around Y only; sign = direction */
 const IDLE_RY_DEG_PER_SEC = -10;
@@ -35,6 +40,7 @@ const MOMENTUM_HALF_LIFE_SEC = 1.05;
 const VELOCITY_SMOOTH_ALPHA = 0.28;
 
 export function HomeHexRoulette() {
+  const { t } = useTranslation();
   const [rotY, setRotY] = useState(12);
   const [dragging, setDragging] = useState(false);
   const drag = useRef({ active: false, px: 0, totalAbs: 0 });
@@ -149,7 +155,7 @@ export function HomeHexRoulette() {
   }, []);
 
   return (
-    <nav className="hex-bolt-scene" aria-label="Site sections">
+    <nav className="hex-bolt-scene" aria-label={t("nav.siteSections")}>
       <div
         className={`hex-bolt-stage${dragging ? " hex-bolt-stage--dragging" : ""}`}
         onPointerEnter={() => {
@@ -168,9 +174,9 @@ export function HomeHexRoulette() {
           <div className="hex-bolt-tilt-stack">
             <div className="hex-bolt-y-axis" aria-hidden />
             <div className="hex-bolt-drum" style={{ transform: `rotateY(${rotY}deg)` }}>
-              {SECTIONS.map((section, i) => (
+              {SECTION_ROUTES.map((to, i) => (
                 <div
-                  key={section.to}
+                  key={to}
                   className="hex-bolt-face"
                   style={{
                     transform: `rotateY(${i * 60}deg) translateZ(var(--hex-r))`,
@@ -178,7 +184,7 @@ export function HomeHexRoulette() {
                 >
                   <div className="hex-bolt-panel" aria-hidden />
                   <Link
-                    to={section.to}
+                    to={to}
                     className="hex-bolt-link"
                     onClick={(ev) => {
                       if (suppressLinkClickRef.current) {
@@ -187,7 +193,7 @@ export function HomeHexRoulette() {
                       }
                     }}
                   >
-                    {section.label}
+                    {t(SECTION_LABEL_KEYS[i])}
                   </Link>
                 </div>
               ))}
