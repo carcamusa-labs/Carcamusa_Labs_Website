@@ -153,8 +153,13 @@ export const en = {
     drumpadDesc:
       "Web drum machine (Hack A Boss Spain, 2023). Vanilla HTML, CSS, and JavaScript — play with mouse or keyboard.",
     shashinDesc: "Japanese-language static page (HTML/CSS). Visual assets edited in Photoshop and Illustrator.",
+    hospitalityTitle: "Hospitality SaaS — Financial Analysis",
+    hospitalityDesc:
+      "T-SQL KPI suite (MRR, ARR, churn, NRR, ARPA, profitability) for a fictional B2B hospitality SaaS — interactive demo on this site with exported sample results.",
+    hospitalityStack: "Microsoft SQL Server · T-SQL · React",
     platformPlaydate: "Playdate Console",
     platformWeb: "Web",
+    platformData: "Data Analysis · SQL Portfolio",
   },
   artwork: {
     heading: "[ ARTWORKS & ASSETS ]",

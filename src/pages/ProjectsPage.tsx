@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { InnerPageLayout } from "../components/InnerPageLayout";
 import { useTranslation } from "../i18n/useTranslation";
 
@@ -10,6 +11,35 @@ export function ProjectsPage() {
       <h3>{t("projects.subheading")}</h3>
       <div className="projects_grid_container_outer">
         <div className="grid_container_inner_left">
+          <div className="grid_container_imageslot">
+            <pre className="projects_sql_preview" aria-hidden="true">
+              {`SELECT
+  month,
+  SUM(mrr + expansion_mrr)
+    AS total_mrr
+FROM subscriptions
+GROUP BY month
+ORDER BY month;`}
+            </pre>
+          </div>
+          <div className="grid_container_textswrap">
+            <div className="grid_container_bigtext">
+              <h3 className="projects_project_title">
+                <b>
+                  <Link to="/hospitality-saas-analysis">{t("projects.hospitalityTitle")}</Link>
+                </b>
+              </h3>
+              <h4 className="projects_project_platform">{t("projects.platformData")}</h4>
+              <h5 className="projects_project_stack">{t("projects.hospitalityStack")}</h5>
+            </div>
+            <div className="grid_container_smalltext">
+              <p>{t("projects.hospitalityDesc")}</p>
+              <p>2026</p>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid_container_inner_right">
           <div className="grid_container_imageslot">
             <img src="/assets/visuals/projects_images/projects_kazoku.PNG" alt="" />
           </div>
@@ -30,7 +60,7 @@ export function ProjectsPage() {
           </div>
         </div>
 
-        <div className="grid_container_inner_right">
+        <div className="grid_container_inner_left">
           <div className="grid_container_imageslot">
             <img src="/assets/visuals/projects_images/projects_drumpad.PNG" alt="" />
           </div>
@@ -51,7 +81,7 @@ export function ProjectsPage() {
           </div>
         </div>
 
-        <div className="grid_container_inner_left">
+        <div className="grid_container_inner_right">
           <div className="grid_container_imageslot">
             <img src="/assets/visuals/projects_images/projects_shashin.png" alt="" />
           </div>

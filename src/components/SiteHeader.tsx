@@ -1,6 +1,12 @@
 import { LanguageSelector } from "./LanguageSelector";
 
-export function SiteHeader({ langLinkId }: { langLinkId?: string } = {}) {
+export function SiteHeader({
+  langLinkId,
+  byLine = " by Martin Rosa",
+}: {
+  langLinkId?: string;
+  byLine?: string;
+} = {}) {
   return (
     <header>
       <div className="logo_container" />
@@ -10,7 +16,7 @@ export function SiteHeader({ langLinkId }: { langLinkId?: string } = {}) {
           <span className="main_title_mobile_line main_title_mobile_line1">CARCAMUSA</span>
           <span className="main_title_mobile_line main_title_mobile_line2">_LABS</span>
         </span>
-        <span className="by"> by Martin Rosa</span>
+        <span className="by">{byLine}</span>
       </h1>
       <LanguageSelector langLinkId={langLinkId} />
     </header>
