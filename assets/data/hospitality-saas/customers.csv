@@ -1,0 +1,151 @@
+hotel_id,country,hotel_size,acquisition_channel,start_date
+H001,Italy,166,sales,2023-01-06
+H002,UK,159,partner,2023-01-19
+H003,Germany,116,sales,2021-10-03
+H004,Italy,108,sales,2024-02-24
+H005,Poland,64,sales,2024-09-15
+H006,France,144,sales,2021-05-01
+H007,Czech Republic,53,inbound,2023-07-16
+H008,France,50,sales,2023-11-17
+H009,France,34,sales,2024-02-17
+H010,France,112,inbound,2022-09-01
+H011,France,301,partner,2023-09-21
+H012,Canada,62,sales,2023-02-08
+H013,Canada,37,inbound,2024-02-28
+H014,United States,62,inbound,2021-09-23
+H015,Spain,96,inbound,2023-03-06
+H016,France,121,partner,2025-01-01
+H017,Italy,57,inbound,2025-01-01
+H018,Portugal,392,inbound,2022-10-02
+H019,France,346,sales,2022-03-03
+H020,Austria,45,inbound,2023-07-19
+H021,Mexico,170,sales,2023-10-08
+H022,UK,42,inbound,2023-03-07
+H023,UAE,61,inbound,2023-09-07
+H024,Italy,290,sales,2021-08-27
+H025,UK,36,inbound,2025-01-01
+H026,Germany,159,sales,2023-05-06
+H027,Singapore,34,inbound,2023-08-21
+H028,Canada,44,inbound,2023-05-20
+H029,Canada,315,sales,2024-07-06
+H030,United States,39,sales,2025-01-01
+H031,Netherlands,104,partner,2024-04-23
+H032,United States,416,sales,2023-06-30
+H033,Mexico,173,inbound,2022-04-01
+H034,Germany,53,sales,2022-01-24
+H035,Germany,132,partner,2022-09-18
+H036,Spain,44,inbound,2023-11-07
+H037,Singapore,101,sales,2021-09-30
+H038,United States,29,sales,2025-01-01
+H039,Canada,50,sales,2024-04-16
+H040,Italy,50,inbound,2024-08-29
+H041,Portugal,118,sales,2024-11-01
+H042,Mexico,271,sales,2023-10-28
+H043,Germany,43,inbound,2023-10-27
+H044,UK,131,sales,2021-04-24
+H045,Spain,39,sales,2025-01-01
+H046,Spain,134,sales,2024-03-28
+H047,Portugal,120,sales,2025-01-01
+H048,France,71,sales,2023-06-10
+H049,Spain,323,inbound,2023-04-19
+H050,Canada,326,sales,2024-07-12
+H051,Canada,40,inbound,2025-01-01
+H052,Portugal,31,inbound,2023-09-03
+H053,United States,41,inbound,2023-12-25
+H054,Italy,64,sales,2023-10-07
+H055,Switzerland,60,inbound,2024-09-03
+H056,Spain,42,inbound,2022-08-01
+H057,Australia,170,sales,2024-02-12
+H058,United States,150,inbound,2025-01-01
+H059,Italy,150,partner,2023-10-03
+H060,Germany,175,inbound,2024-05-02
+H061,Canada,36,sales,2024-06-13
+H062,Netherlands,297,sales,2025-01-01
+H063,United States,116,sales,2023-11-02
+H064,France,28,partner,2023-02-03
+H065,Belgium,47,partner,2022-02-02
+H066,Portugal,44,partner,2024-12-22
+H067,Spain,278,sales,2022-01-08
+H068,France,43,sales,2024-02-16
+H069,Belgium,425,sales,2024-10-25
+H070,Italy,131,sales,2023-08-24
+H071,Belgium,99,inbound,2023-11-17
+H072,Germany,145,partner,2023-01-15
+H073,Czech Republic,40,inbound,2024-02-21
+H074,Germany,124,partner,2023-03-11
+H075,Canada,355,sales,2022-03-24
+H076,UAE,29,inbound,2023-10-19
+H077,Italy,470,partner,2022-05-04
+H078,Italy,118,inbound,2025-01-01
+H079,Australia,48,inbound,2021-12-03
+H080,United States,43,sales,2024-02-27
+H081,United States,57,inbound,2025-01-01
+H082,France,133,sales,2023-10-29
+H083,France,144,inbound,2024-06-25
+H084,Portugal,50,sales,2022-10-09
+H085,UAE,38,inbound,2022-02-24
+H086,Netherlands,35,inbound,2022-03-18
+H087,UK,150,sales,2024-09-06
+H088,France,251,sales,2024-03-21
+H089,Italy,38,inbound,2023-12-11
+H090,UK,41,sales,2023-10-26
+H091,Portugal,249,sales,2024-02-22
+H092,Italy,103,sales,2024-08-15
+H093,Spain,24,inbound,2025-01-01
+H094,France,26,inbound,2021-07-03
+H095,Switzerland,63,partner,2023-03-22
+H096,Spain,33,inbound,2024-10-15
+H097,Singapore,406,inbound,2023-04-20
+H098,Italy,38,inbound,2024-11-22
+H099,Czech Republic,110,partner,2023-02-25
+H100,France,336,partner,2022-06-09
+H101,Portugal,134,inbound,2023-01-10
+H102,France,146,partner,2024-10-16
+H103,United States,166,inbound,2023-11-09
+H104,Portugal,143,partner,2024-11-17
+H105,Germany,39,partner,2024-09-27
+H106,France,115,sales,2024-05-03
+H107,Germany,126,inbound,2024-06-30
+H108,Austria,43,inbound,2024-08-18
+H109,Spain,36,sales,2024-10-27
+H110,Singapore,130,sales,2023-02-23
+H111,UAE,31,sales,2023-01-08
+H112,Czech Republic,61,sales,2025-01-01
+H113,United States,116,inbound,2024-07-27
+H114,Italy,113,sales,2025-01-01
+H115,UK,41,partner,2023-05-07
+H116,Switzerland,150,inbound,2023-12-07
+H117,Italy,131,inbound,2023-07-01
+H118,Netherlands,31,partner,2024-03-19
+H119,Italy,166,inbound,2025-01-01
+H120,France,367,sales,2022-12-07
+H121,Portugal,40,sales,2023-05-09
+H122,Germany,54,sales,2025-01-01
+H123,Australia,51,inbound,2025-01-01
+H124,Canada,53,inbound,2025-01-01
+H125,France,50,inbound,2023-01-27
+H126,France,35,sales,2024-04-29
+H127,Belgium,44,sales,2024-10-13
+H128,France,63,inbound,2021-11-19
+H129,France,58,sales,2023-10-13
+H130,France,58,inbound,2022-05-09
+H131,Italy,48,inbound,2022-02-06
+H132,Spain,180,inbound,2021-05-07
+H133,Germany,100,inbound,2023-06-15
+H134,Italy,149,sales,2024-03-20
+H135,UK,340,inbound,2023-09-17
+H136,Singapore,145,inbound,2021-03-31
+H137,Switzerland,40,sales,2024-04-24
+H138,UK,65,inbound,2024-11-21
+H139,Czech Republic,65,sales,2024-05-26
+H140,Spain,50,inbound,2022-10-16
+H141,Portugal,132,inbound,2024-08-29
+H142,Italy,49,inbound,2022-12-28
+H143,Italy,237,sales,2025-01-01
+H144,Czech Republic,51,inbound,2024-12-17
+H145,Italy,54,inbound,2023-10-04
+H146,Spain,356,sales,2025-01-01
+H147,Austria,151,inbound,2023-04-18
+H148,Netherlands,117,sales,2023-02-11
+H149,Italy,43,inbound,2023-06-24
+H150,Spain,29,inbound,2023-09-21

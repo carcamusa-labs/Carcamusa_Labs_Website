@@ -157,8 +157,13 @@ export const ja: TranslationDictionary = {
     drumpadDesc:
       "Web ドラムマシン（Hack A Boss Spain、2023）。Vanilla HTML / CSS / JavaScript — マウスまたはキーボードで演奏。",
     shashinDesc: "日本語の静的ページ（HTML/CSS）。ビジュアルは Photoshop・Illustrator で編集。",
+    hospitalityTitle: "Hospitality SaaS — 財務分析",
+    hospitalityDesc:
+      "架空の B2B ホスピタリティ SaaS 向け T-SQL KPI スイート（MRR、ARR、チャーン、NRR、ARPA、収益性）— このサイト上のインタラクティブデモ（サンプル結果をエクスポート）。",
+    hospitalityStack: "Microsoft SQL Server · T-SQL · React",
     platformPlaydate: "Playdate 本体",
     platformWeb: "Web",
+    platformData: "データ分析 · SQL ポートフォリオ",
   },
   artwork: {
     heading: "[ デザイン & アセット ]",

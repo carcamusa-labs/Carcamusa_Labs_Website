@@ -157,8 +157,13 @@ export const pl: TranslationDictionary = {
     drumpadDesc:
       "Webowa maszyna perkusyjna (Hack A Boss Spain, 2023). Vanilla HTML, CSS i JavaScript — graj myszą lub klawiaturą.",
     shashinDesc: "Statyczna strona po japońsku (HTML/CSS). Assety wizualne edytowane w Photoshopie i Illustratorze.",
+    hospitalityTitle: "Hospitality SaaS — Analiza finansowa",
+    hospitalityDesc:
+      "Pakiet KPI w T-SQL (MRR, ARR, churn, NRR, ARPA, rentowność) dla fikcyjnego SaaS B2B dla hoteli — interaktywne demo na tej stronie z wyeksportowanymi danymi próbnymi.",
+    hospitalityStack: "Microsoft SQL Server · T-SQL · React",
     platformPlaydate: "Konsola Playdate",
     platformWeb: "Web",
+    platformData: "Analiza danych · Portfolio SQL",
   },
   artwork: {
     heading: "[ DESIGNY I ZASOBY ]",
