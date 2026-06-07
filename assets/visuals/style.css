@@ -694,6 +694,7 @@ h3 {
 .projects_grid_container_outer {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   width: 100%;
   height: auto;
 }
@@ -720,16 +721,39 @@ h3 {
   border-radius: 2px;
 }
 
+.projects_grid_container_outer .grid_container_imageslot {
+  width: 100%;
+  max-width: 420px;
+  height: 388px;
+  max-height: 388px;
+  flex-shrink: 0;
+}
+
 .projects_grid_container_outer .grid_container_imageslot img {
   display: block;
-  width: 420px;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
-  height: auto;
+  object-fit: contain;
 }
 
 .grid_container_textswrap {
   display: flex;
   flex-direction: row;
+}
+
+.projects_card {
+  min-height: 100%;
+  align-items: center;
+}
+
+.projects_card_body {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  width: 100%;
+  margin-top: 1.75rem;
+  min-height: 12rem;
 }
 
 .grid_container_bigtext {
@@ -747,22 +771,21 @@ h3 {
 }
 
 .projects_project_title {
-  margin: 0;
-  margin: 20px 0;
+  margin: 0 0 0.2rem;
   font-size: 1.5rem;
+  text-align: center;
 }
 
-.projects_project_platform {
-  font-size: 1.25rem;
-}
-
-.projects_project_stack {
-  font-size: 1rem;
+.projects_project_title b {
+  color: cyan;
+  font-weight: 600;
 }
 
 .projects_project_links {
-  margin-top: 0.35rem;
+  margin: 0 0 0.75rem;
   font-size: 0.95rem;
+  line-height: 1.4;
+  text-align: center;
 }
 
 .projects_project_links a {
@@ -771,6 +794,31 @@ h3 {
 
 .projects_project_links a:hover {
   text-decoration: underline;
+}
+
+.projects_project_platform {
+  margin: 0 0 1rem;
+  font-size: 1.25rem;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.projects_project_desc {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: whitesmoke;
+  flex: 1;
+  text-align: left;
+  width: 100%;
+}
+
+.projects_project_year {
+  margin: 1rem 0 0;
+  align-self: flex-end;
+  font-size: 1.2rem;
+  line-height: 1.4;
+  color: #888;
 }
 
 .artworks_assets_grid_container {
@@ -1459,6 +1507,23 @@ footer div {
   .projects_grid_container_outer .grid_container_imageslot {
     max-width: 100%;
     width: 100%;
+    height: auto;
+    max-height: none;
+    aspect-ratio: 555 / 512;
+  }
+
+  .projects_grid_container_outer .grid_container_imageslot img {
+    height: auto;
+    max-height: 100%;
+  }
+
+  .projects_card_body {
+    min-height: 0;
+    margin-top: 1.25rem;
+  }
+
+  .projects_project_links {
+    font-size: 0.95rem;
   }
 
   .grid_container_textswrap {
@@ -1725,10 +1790,9 @@ footer div {
 
 .projects_sql_preview {
   display: block;
-  width: 420px;
+  width: 100%;
+  height: 100%;
   max-width: 100%;
-  height: auto;
-  aspect-ratio: 555 / 512;
   margin: 0;
   padding: 1rem 0.85rem;
   box-sizing: border-box;

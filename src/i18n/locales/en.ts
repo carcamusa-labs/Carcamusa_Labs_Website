@@ -159,8 +159,8 @@ export const en = {
     hospitalityDesc:
       "T-SQL KPI suite (MRR, ARR, churn, NRR, ARPA, profitability) for a fictional B2B hospitality SaaS — interactive demo on GitHub Pages with exported sample results.",
     hospitalityStack: "Microsoft SQL Server · T-SQL",
-    viewGithub: "GitHub",
-    liveDemo: "Live demo",
+    viewGithub: "[View on GH]",
+    liveDemo: "[Live Demo]",
     platformPlaydate: "Playdate Console",
     platformWeb: "Web",
     platformData: "Data Analysis · SQL Portfolio",

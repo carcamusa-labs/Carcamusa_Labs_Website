@@ -163,8 +163,8 @@ export const pl: TranslationDictionary = {
     hospitalityDesc:
       "Pakiet KPI w T-SQL (MRR, ARR, churn, NRR, ARPA, rentowność) dla fikcyjnego SaaS B2B dla hoteli — interaktywne demo na GitHub Pages z wyeksportowanymi danymi próbnymi.",
     hospitalityStack: "Microsoft SQL Server · T-SQL",
-    viewGithub: "GitHub",
-    liveDemo: "Demo na żywo",
+    viewGithub: "[Zobacz na GH]",
+    liveDemo: "[Demo na żywo]",
     platformPlaydate: "Konsola Playdate",
     platformWeb: "Web",
     platformData: "Analiza danych · Portfolio SQL",

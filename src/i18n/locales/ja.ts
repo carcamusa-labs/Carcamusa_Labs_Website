@@ -163,8 +163,8 @@ export const ja: TranslationDictionary = {
     hospitalityDesc:
       "架空の B2B ホスピタリティ SaaS 向け T-SQL KPI スイート（MRR、ARR、チャーン、NRR、ARPA、収益性）— GitHub Pages 上のインタラクティブデモ（サンプル結果をエクスポート）。",
     hospitalityStack: "Microsoft SQL Server · T-SQL",
-    viewGithub: "GitHub",
-    liveDemo: "ライブデモ",
+    viewGithub: "[GH で見る]",
+    liveDemo: "[ライブデモ]",
     platformPlaydate: "Playdate 本体",
     platformWeb: "Web",
     platformData: "データ分析 · SQL ポートフォリオ",
