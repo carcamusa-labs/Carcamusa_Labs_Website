@@ -760,6 +760,19 @@ h3 {
   font-size: 1rem;
 }
 
+.projects_project_links {
+  margin-top: 0.35rem;
+  font-size: 0.95rem;
+}
+
+.projects_project_links a {
+  color: cyan;
+}
+
+.projects_project_links a:hover {
+  text-decoration: underline;
+}
+
 .artworks_assets_grid_container {
   display: flex;
   width: 100%;
@@ -1709,200 +1722,6 @@ footer div {
   display: block;
 }
 
-/* Hospitality SaaS SQL showcase — layout matches InnerPageLayout + global h2 / .to_index */
-.sql-showcase-page-heading {
-  display: flex;
-  align-items: baseline;
-  flex-wrap: nowrap;
-  white-space: nowrap;
-  overflow-x: auto;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.sql-showcase-page-heading::-webkit-scrollbar {
-  display: none;
-}
-
-.sql-showcase-page-title {
-  color: cyan;
-  font-weight: 600;
-  flex-shrink: 0;
-}
-
-.sql-showcase-heading-sep {
-  color: #555;
-  flex-shrink: 0;
-}
-
-.sql-showcase-subtitle {
-  color: #aaa;
-  font-weight: 400;
-  flex-shrink: 0;
-}
-
-.sql-showcase-disclaimer {
-  color: #888;
-}
-
-.sql-showcase-nav {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.5rem;
-  margin-bottom: 1.5rem;
-}
-
-.sql-showcase-nav-btn {
-  border: 1px solid #444;
-  background: #111;
-  color: #ddd;
-  font-family: inherit;
-  font-size: 0.85rem;
-  padding: 0.45rem 0.85rem;
-  cursor: pointer;
-  transition: border-color 0.15s, color 0.15s, background 0.15s;
-}
-
-.sql-showcase-nav-btn:hover {
-  border-color: cyan;
-  color: cyan;
-}
-
-.sql-showcase-nav-btn.is-active {
-  border-color: cyan;
-  background: #1a1a1a;
-  color: cyan;
-}
-
-.sql-showcase-panel {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) minmax(220px, 280px);
-  gap: 1.25rem;
-  align-items: start;
-}
-
-.sql-showcase-query-title {
-  color: white;
-  font-size: 1.05rem;
-  margin-bottom: 0.85rem;
-}
-
-.sql-showcase-block-label {
-  color: cyan;
-  font-size: 0.82rem;
-  letter-spacing: 0.06em;
-  margin-bottom: 0.45rem;
-}
-
-.sql-showcase-block-label + .sql-showcase-code {
-  margin-top: 0;
-}
-
-.sql-showcase-block-label:not(:first-of-type) {
-  margin-top: 0.85rem;
-}
-
-@keyframes sql-showcase-fade-in {
-  from {
-    opacity: 0;
-    transform: translateY(8px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.sql-showcase-panel-fade {
-  animation: sql-showcase-fade-in 0.38s ease-out;
-}
-
-.sql-showcase-result-fade {
-  animation: sql-showcase-fade-in 0.45s ease-out 0.08s both;
-}
-
-.sql-showcase-code {
-  background: #1e1e1e;
-  border: 1px solid #333;
-  color: #d4d4d4;
-  font-family: Consolas, "Courier New", monospace;
-  font-size: 0.78rem;
-  line-height: 1.45;
-  overflow-x: auto;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  white-space: pre;
-}
-
-.sql-showcase-table-wrap {
-  overflow-x: auto;
-  border: 1px solid #333;
-  margin-bottom: 0.35rem;
-}
-
-.sql-showcase-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.82rem;
-}
-
-.sql-showcase-table th,
-.sql-showcase-table td {
-  border-bottom: 1px solid #2a2a2a;
-  padding: 0.45rem 0.65rem;
-  text-align: left;
-  white-space: nowrap;
-}
-
-.sql-showcase-table th {
-  background: #161616;
-  color: cyan;
-  font-weight: 600;
-  position: sticky;
-  top: 0;
-}
-
-.sql-showcase-table tbody tr:nth-child(even) {
-  background: #0d0d0d;
-}
-
-.sql-showcase-table tbody tr:hover {
-  background: #1a1a1a;
-}
-
-.sql-showcase-row-count {
-  color: #666;
-  font-size: 0.75rem;
-}
-
-.sql-showcase-panel-aside {
-  background: #111;
-  border: 1px solid #333;
-  padding: 1rem;
-  line-height: 1.55;
-}
-
-.sql-showcase-panel-aside h4 {
-  color: cyan;
-  font-size: 0.9rem;
-  margin-bottom: 0.65rem;
-}
-
-.sql-showcase-panel-aside p {
-  color: #ccc;
-  font-size: 0.88rem;
-}
-
-.sql-showcase-loading {
-  color: #888;
-  padding: 2rem 0;
-}
-
-@media (max-width: 768px) {
-  .sql-showcase-panel {
-    grid-template-columns: 1fr;
-  }
-}
 
 .projects_sql_preview {
   display: block;
