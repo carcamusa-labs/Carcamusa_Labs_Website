@@ -156,11 +156,15 @@ export const es: TranslationDictionary = {
       "Arena boss fighter a ritmo rápido para la Playdate 1-bit, hecho en Lua con el Playdate SDK — código, arte y animación desde cero.",
     drumpadDesc:
       "Caja de ritmos web (Hack A Boss Spain, 2023). HTML, CSS y JavaScript vanilla — toca con ratón o teclado.",
+    fotomaticDesc:
+      "Landing de una cámara instantánea ficticia. HTML semántico y CSS responsive — hero, funciones, galería de filtros y navegación móvil. Proyecto Codecademy.",
     shashinDesc: "Página estática en japonés (HTML/CSS). Assets visuales editados en Photoshop e Illustrator.",
     hospitalityTitle: "Hospitality SaaS — Análisis financiero",
     hospitalityDesc:
-      "Suite de KPIs en T-SQL (MRR, ARR, churn, NRR, ARPA, rentabilidad) para un SaaS B2B hotelero ficticio — demo interactiva en este sitio con resultados de muestra exportados.",
-    hospitalityStack: "Microsoft SQL Server · T-SQL · React",
+      "Suite de KPIs en T-SQL (MRR, ARR, churn, NRR, ARPA, rentabilidad) para un SaaS B2B hotelero ficticio — demo interactiva en GitHub Pages con resultados de muestra exportados.",
+    hospitalityStack: "Microsoft SQL Server · T-SQL",
+    viewGithub: "GitHub",
+    liveDemo: "Demo en vivo",
     platformPlaydate: "Consola Playdate",
     platformWeb: "Web",
     platformData: "Análisis de datos · Portfolio SQL",

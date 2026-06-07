@@ -156,11 +156,15 @@ export const ja: TranslationDictionary = {
       "1-bit Playdate 向けの高速アリーナ・ボスファイター。Playdate SDK・Lua でコード・アート・アニメを一から制作。",
     drumpadDesc:
       "Web ドラムマシン（Hack A Boss Spain、2023）。Vanilla HTML / CSS / JavaScript — マウスまたはキーボードで演奏。",
+    fotomaticDesc:
+      "架空のインスタントカメラ向けワンページ・マーケティングサイト。セマンティック HTML とレスポンシブ CSS — ヒーロー、機能、フィルターギャラリー、モバイルナビ。Codecademy 課題。",
     shashinDesc: "日本語の静的ページ（HTML/CSS）。ビジュアルは Photoshop・Illustrator で編集。",
     hospitalityTitle: "Hospitality SaaS — 財務分析",
     hospitalityDesc:
-      "架空の B2B ホスピタリティ SaaS 向け T-SQL KPI スイート（MRR、ARR、チャーン、NRR、ARPA、収益性）— このサイト上のインタラクティブデモ（サンプル結果をエクスポート）。",
-    hospitalityStack: "Microsoft SQL Server · T-SQL · React",
+      "架空の B2B ホスピタリティ SaaS 向け T-SQL KPI スイート（MRR、ARR、チャーン、NRR、ARPA、収益性）— GitHub Pages 上のインタラクティブデモ（サンプル結果をエクスポート）。",
+    hospitalityStack: "Microsoft SQL Server · T-SQL",
+    viewGithub: "GitHub",
+    liveDemo: "ライブデモ",
     platformPlaydate: "Playdate 本体",
     platformWeb: "Web",
     platformData: "データ分析 · SQL ポートフォリオ",

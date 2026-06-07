@@ -7,7 +7,6 @@ import { LinksPage } from "./pages/LinksPage";
 import { ProjectsPage } from "./pages/ProjectsPage";
 import { ReferralsPage } from "./pages/ReferralsPage";
 import { StorePage } from "./pages/StorePage";
-import { HospitalitySaasShowcasePage } from "./pages/HospitalitySaasShowcasePage";
 
 export default function App() {
   return (
@@ -22,11 +21,6 @@ export default function App() {
       <Route path="/6_referrals_mentors.html" element={<ReferralsPage />} />
       <Route path="/links" element={<LinksPage />} />
       <Route path="/links.html" element={<LinksPage />} />
-      <Route path="/hospitality-saas-analysis" element={<HospitalitySaasShowcasePage />} />
-      <Route
-        path="/7_hospitality_saas_analysis.html"
-        element={<HospitalitySaasShowcasePage />}
-      />
       <Route path="*" element={<Navigate to="/" replace />} />
     </Routes>
   );

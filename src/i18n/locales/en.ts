@@ -152,11 +152,15 @@ export const en = {
       "Fast-paced arena boss fighter for the 1-bit Playdate, built in Lua with the Playdate SDK — code, art, and animation from scratch.",
     drumpadDesc:
       "Web drum machine (Hack A Boss Spain, 2023). Vanilla HTML, CSS, and JavaScript — play with mouse or keyboard.",
+    fotomaticDesc:
+      "Single-page marketing site for a fictional instant-format camera. Semantic HTML and responsive CSS — hero, features, filter gallery, and mobile nav. Codecademy coursework.",
     shashinDesc: "Japanese-language static page (HTML/CSS). Visual assets edited in Photoshop and Illustrator.",
     hospitalityTitle: "Hospitality SaaS — Financial Analysis",
     hospitalityDesc:
-      "T-SQL KPI suite (MRR, ARR, churn, NRR, ARPA, profitability) for a fictional B2B hospitality SaaS — interactive demo on this site with exported sample results.",
-    hospitalityStack: "Microsoft SQL Server · T-SQL · React",
+      "T-SQL KPI suite (MRR, ARR, churn, NRR, ARPA, profitability) for a fictional B2B hospitality SaaS — interactive demo on GitHub Pages with exported sample results.",
+    hospitalityStack: "Microsoft SQL Server · T-SQL",
+    viewGithub: "GitHub",
+    liveDemo: "Live demo",
     platformPlaydate: "Playdate Console",
     platformWeb: "Web",
     platformData: "Data Analysis · SQL Portfolio",
