@@ -1,0 +1,461 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595.28 841.89] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 7594 >>
+stream
+0.100 0.100 0.100 rg
+BT
+/F2 20.00 Tf
+1 0 0 1 46.00 800.00 Tm
+(Martin Rosa) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 11.00 Tf
+1 0 0 1 46.00 784.00 Tm
+(Software Development Engineer in Test \(SDET\)) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 10.00 Tf
+1 0 0 1 46.00 771.00 Tm
+(iOS and Android) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 757.00 Tm
+(Toledo, Spain) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 745.00 Tm
+(+34 652 538 151) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 733.00 Tm
+(martin.rosa@carcamusalabs.com) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 721.00 Tm
+(https://www.carcamusalabs.com) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 709.00 Tm
+(https://www.linkedin.com/in/martin-rosa/) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F2 11.00 Tf
+1 0 0 1 46.00 693.00 Tm
+(SUMMARY) Tj
+ET
+0.75 0.75 0.75 RG
+0.6 w
+46.00 689.00 m 549.00 689.00 l S
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 676.00 Tm
+(Software Development Engineer in Test \(SDET\). I build and maintain end-to-end test automation for native iOS and) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 664.20 Tm
+(Android, and the continuous integration pipeline that runs it. Tools: WebdriverIO, TypeScript, Cucumber, Appium, GitLab) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 652.40 Tm
+(CI, Xcode Cloud, BrowserStack, and Allure. I also do exploratory testing and manual testing on native builds when a) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 640.60 Tm
+(release needs it.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F2 11.00 Tf
+1 0 0 1 46.00 622.80 Tm
+(EXPERIENCE) Tj
+ET
+0.75 0.75 0.75 RG
+0.6 w
+46.00 618.80 m 549.00 618.80 l S
+0.100 0.100 0.100 rg
+BT
+/F2 10.50 Tf
+1 0 0 1 46.00 605.80 Tm
+(Software Development Engineer in Test \(SDET\)) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 10.00 Tf
+1 0 0 1 46.00 593.80 Tm
+(Lottoland) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 581.80 Tm
+(Remote, Spain) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 569.80 Tm
+(2025 - Present) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 556.80 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 556.80 Tm
+(Build and maintain end-to-end test automation for native iOS and Android with WebdriverIO, TypeScript, Cucumber,) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 545.20 Tm
+(Appium, and the Page Object Model.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 533.60 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 533.60 Tm
+(Own the continuous integration pipeline: GitLab CI \(lint, typecheck, dependency audit\), Xcode Cloud builds,) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 522.00 Tm
+(BrowserStack device runs, and Allure test reports.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 510.40 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 510.40 Tm
+(Debug failed and flaky automated tests on simulators and real devices using logs, Xcode, Proxyman, and Firebase) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 498.80 Tm
+(configuration in Demo and Prod.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 487.20 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 487.20 Tm
+(Peer-review test automation code. Run exploratory testing and manual testing on native builds when a release needs) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 475.60 Tm
+(it.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 464.00 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 464.00 Tm
+(Maintained a legacy Java, Appium, and Gradle test suite on this team, then moved that work onto the current) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 452.40 Tm
+(TypeScript stack.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F2 10.50 Tf
+1 0 0 1 46.00 435.80 Tm
+(QA Automation Engineer) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 10.00 Tf
+1 0 0 1 46.00 423.80 Tm
+(Lingokids) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 411.80 Tm
+(Remote, Spain) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 399.80 Tm
+(2020 - 2024) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 386.80 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 386.80 Tm
+(Started as a manual QA engineer, then moved into test automation for iOS and Android, plus manual web testing,) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 375.20 Tm
+(with bug reports and issue tracking.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 363.60 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 363.60 Tm
+(Wrote and maintained test plans and test cases for regression testing and end-to-end testing.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 352.00 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 352.00 Tm
+(Test automation with Appium, Cucumber, and WebdriverIO, including functional testing and localisation testing.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 340.40 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 340.40 Tm
+(Worked in Kanban, Agile, and Waterfall, using a shift-left approach.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F2 10.50 Tf
+1 0 0 1 46.00 323.80 Tm
+(QA Analyst) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 10.00 Tf
+1 0 0 1 46.00 311.80 Tm
+(Freelance) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 299.80 Tm
+(Montevideo, Uruguay and Madrid, Spain) Tj
+ET
+0.330 0.330 0.330 rg
+BT
+/F1 9.50 Tf
+1 0 0 1 46.00 287.80 Tm
+(2018 - 2020) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 274.80 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 274.80 Tm
+(Test plans for alpha and beta builds, functional testing, localisation testing, and regression testing.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 263.20 Tm
+(-) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 58.00 263.20 Tm
+(Release notes and translation of in-game text.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F2 11.00 Tf
+1 0 0 1 46.00 245.60 Tm
+(SKILLS) Tj
+ET
+0.75 0.75 0.75 RG
+0.6 w
+46.00 241.60 m 549.00 241.60 l S
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 228.60 Tm
+(Test automation, end-to-end testing, exploratory testing, manual testing, regression testing, Page Object Model, BDD,) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 216.80 Tm
+(continuous integration, CI/CD.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 205.00 Tm
+(WebdriverIO, TypeScript, JavaScript, Cucumber, Appium, Java, Gradle, Git, GitHub, GitLab, GitLab CI, Xcode, Xcode) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 193.20 Tm
+(Cloud, Android Studio, BrowserStack, Allure, Testomat.io, Firebase, Proxyman, HTML, CSS, React, Vue, Lua.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 181.40 Tm
+(Unity, Godot, Playdate SDK.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F2 11.00 Tf
+1 0 0 1 46.00 163.60 Tm
+(EDUCATION) Tj
+ET
+0.75 0.75 0.75 RG
+0.6 w
+46.00 159.60 m 549.00 159.60 l S
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 146.60 Tm
+(Industrial Electromechanics, UTU Arroyo Seco, Uruguay. 2015.) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F2 11.00 Tf
+1 0 0 1 46.00 128.80 Tm
+(LANGUAGES) Tj
+ET
+0.75 0.75 0.75 RG
+0.6 w
+46.00 124.80 m 549.00 124.80 l S
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 111.80 Tm
+(Spanish: Native) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 99.80 Tm
+(English: Fluent) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 87.80 Tm
+(Portuguese: Fluent) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 75.80 Tm
+(Japanese: Intermediate) Tj
+ET
+0.100 0.100 0.100 rg
+BT
+/F1 9.40 Tf
+1 0 0 1 46.00 63.80 Tm
+(Polish: Basic) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>
+endobj
+7 0 obj
+<< /Title (Martin Rosa - Software Development Engineer in Test) /Author (Martin Rosa) /Subject (SDET CV) >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000257 00000 n 
+0000007903 00000 n 
+0000008000 00000 n 
+0000008102 00000 n 
+trailer << /Size 8 /Root 1 0 R /Info 7 0 R >>
+startxref
+8225
+%%EOF

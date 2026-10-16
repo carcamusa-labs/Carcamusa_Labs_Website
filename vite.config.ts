@@ -65,6 +65,11 @@ function serveAssetsFromRoot(): Plugin {
         else if (url.endsWith(".jpg") || url.endsWith(".jpeg")) res.setHeader("Content-Type", "image/jpeg");
         else if (url.endsWith(".webp")) res.setHeader("Content-Type", "image/webp");
         else if (url.endsWith(".pdf")) res.setHeader("Content-Type", "application/pdf");
+        else if (url.endsWith(".docx"))
+          res.setHeader(
+            "Content-Type",
+            "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+          );
         else if (url.endsWith(".ico")) res.setHeader("Content-Type", "image/x-icon");
         createReadStream(filePath)
           .on("error", () => next())

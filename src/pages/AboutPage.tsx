@@ -54,9 +54,26 @@ export function AboutPage() {
         </p>
         <p className="indented_p">{t("about.journey2")}</p>
         <p className="indented_p">{t("about.journey3")}</p>
-        <p className="last_p">
-          <b>{t("about.languagesLabel")}</b> {t("about.languagesList")}
+        <p>
+          <b>{t("about.languagesLabel")}</b>
         </p>
+        <ul className="last_p">
+          <li>
+            <b>{t("cv.langNameSpanish")}</b>: {t("cv.langSpanish")}
+          </li>
+          <li>
+            <b>{t("cv.langNameEnglish")}</b>: {t("cv.langEnglish")}
+          </li>
+          <li>
+            <b>{t("cv.langNamePortuguese")}</b>: {t("cv.langPortuguese")}
+          </li>
+          <li>
+            <b>{t("cv.langNameJapanese")}</b>: {t("cv.langJapanese")}
+          </li>
+          <li>
+            <b>{t("cv.langNamePolish")}</b>: {t("cv.langPolish")}
+          </li>
+        </ul>
       </CollapsibleSection>
     </InnerPageLayout>
   );

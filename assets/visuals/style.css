@@ -509,6 +509,13 @@ main:has(.temp_announcement_container) > .temp_announcement_container:first-chil
   font-size: 3rem;
 }
 
+.cv-download-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  align-items: center;
+}
+
 .download_button {
   background-color: #1b1b1b;
   color: cyan;

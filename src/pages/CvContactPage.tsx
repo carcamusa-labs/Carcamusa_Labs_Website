@@ -10,7 +10,14 @@ export function CvContactPage() {
       <h3>{t("cv.download")}</h3>
       <div className="cv-download-wrap">
         <a
-          href="/assets/visuals/downloadables/CV-Martin-Rosa_QA-Engineer_(EN).pdf"
+          href="/assets/visuals/downloadables/Martin-Rosa-SDET-CV.docx"
+          className="download_a"
+          download
+        >
+          <div className="download_button">{t("cv.downloadButtonDocx")}</div>
+        </a>
+        <a
+          href="/assets/visuals/downloadables/Martin-Rosa-SDET-CV.pdf"
           className="download_a"
           download
         >
@@ -20,7 +27,7 @@ export function CvContactPage() {
       <h3 className="cv-preview-heading">{t("cv.preview")}</h3>
       <embed
         className="cv"
-        src="/assets/visuals/downloadables/CV-Martin-Rosa_QA-Engineer_(EN).pdf"
+        src="/assets/visuals/downloadables/Martin-Rosa-SDET-CV.pdf"
         width="100%"
         height="700px"
         type="application/pdf"
@@ -37,7 +44,7 @@ export function CvContactPage() {
               <b>Git</b> · <b>GitHub</b> · <b>GitLab</b>
             </li>
             <li>
-              <b>HTML</b> · <b>CSS</b> · <b>JavaScript</b> · <b>TypeScript</b>
+              <b>TypeScript</b> · <b>JavaScript</b> · <b>HTML</b> · <b>CSS</b>
             </li>
             <li>
               <b>React</b> · <b>Vue</b>
@@ -49,7 +56,7 @@ export function CvContactPage() {
               <b>Lua</b> · <b>Godot Scripting (GDS)</b>
             </li>
             <li>
-              <b>Xcode</b> · <b>Android Studio</b> · <b>iOS Simulators</b>
+              <b>Xcode</b> · <b>Android Studio</b>
             </li>
           </ul>
 
@@ -58,10 +65,10 @@ export function CvContactPage() {
           </h3>
           <ul className="cv-skills-ul">
             <li>
-              <b>Appium</b> · <b>Cucumber</b> · <b>WebdriverIO</b> · <b>Gradle</b> · <b>Gherkin</b>
+              <b>WebdriverIO</b> · <b>Cucumber</b> · <b>Appium</b> · <b>Allure</b>
             </li>
             <li>
-              <b>TestLodge</b> · <b>Testomat.io</b> · <b>BrowserStack</b> · <b>Allure</b>
+              <b>GitLab CI</b> · <b>Xcode Cloud</b> · <b>BrowserStack</b> · <b>Testomat.io</b>
             </li>
             <li>{t("cv.skillQaLine3")}</li>
           </ul>
@@ -93,7 +100,7 @@ export function CvContactPage() {
           </h3>
           <ul className="cv-skills-ul">
             <li>
-              <b>Amplitude</b> · <b>Braze</b>
+              <b>Firebase</b> · <b>Proxyman</b> · <b>Amplitude</b> · <b>Braze</b>
             </li>
           </ul>
 
@@ -140,9 +147,6 @@ export function CvContactPage() {
             </li>
             <li>
               <b>{t("cv.langNameJapanese")}</b>: {t("cv.langJapanese")}
-            </li>
-            <li>
-              <b>{t("cv.langNameItalian")}</b>: {t("cv.langItalian")}
             </li>
             <li>
               <b>{t("cv.langNamePolish")}</b>: {t("cv.langPolish")}

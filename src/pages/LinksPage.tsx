@@ -17,17 +17,17 @@ export function LinksPage() {
         <h4>
           Yo, thanks for visiting. I&apos;m Nitram from <span>「Carcamusa_Labs」</span>.
           <br />
-          Uruguayan indie game dev living in Toledo, Spain.
-          <br />I try to make retro-inspired games for a living.
+          Uruguayan SDET living in Toledo, Spain.
+          <br />I also make retro-inspired games.
         </h4>
         <h4>
           来てくれておおきに！
           <br />
           ワイは <span>「Carcamusa_Labs」</span> のニトラムやで。
           <br />
-          スペインのトレドに住んでいる、ウルグアイ人やで。
+          スペインのトレドに住んでる、ウルグアイ人のSDETやで。
           <br />
-          レトロ風のゲーム作ってメシ食お思てんねん。
+          レトロ風のゲームも作ってるで。
         </h4>
         <h4 id="links_my-links">My links:</h4>
       </div>

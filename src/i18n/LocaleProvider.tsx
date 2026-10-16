@@ -6,7 +6,7 @@ import { LOCALES, STORAGE_KEY, type Locale, type TranslationDictionary } from ".
 function readStoredLocale(): Locale {
   try {
     const stored = sessionStorage.getItem(STORAGE_KEY);
-    if (stored === "en" || stored === "es" || stored === "pt" || stored === "pl" || stored === "ja" || stored === "it") {
+    if (stored === "en" || stored === "es" || stored === "pt" || stored === "pl" || stored === "ja") {
       return stored;
     }
   } catch {
