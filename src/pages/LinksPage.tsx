@@ -4,7 +4,7 @@ export function LinksPage() {
   const year = new Date().getFullYear();
 
   useEffect(() => {
-    document.title = "Carcamusa Labs - Links";
+    document.title = "Carcamusa_Labs - Links";
     document.body.classList.add("links-page");
     return () => {
       document.body.classList.remove("links-page");
@@ -15,7 +15,7 @@ export function LinksPage() {
     <>
       <div id="links_initial-paragraph-container">
         <h4>
-          Yo, thanks for visiting. I&apos;m Nitram from <span>「Carcamusa Labs」</span>.
+          Yo, thanks for visiting. I&apos;m Nitram from <span>「Carcamusa_Labs」</span>.
           <br />
           Uruguayan SDET living in Toledo, Spain.
           <br />I also make retro-inspired games.
@@ -23,7 +23,7 @@ export function LinksPage() {
         <h4>
           来てくれておおきに！
           <br />
-          ワイは <span>「Carcamusa Labs」</span> のニトラムやで。
+          ワイは <span>「Carcamusa_Labs」</span> のニトラムやで。
           <br />
           スペインのトレドに住んでる、ウルグアイ人のSDETやで。
           <br />

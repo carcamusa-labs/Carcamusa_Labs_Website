@@ -32,14 +32,14 @@ export const en = {
     siteSections: "Site sections",
   },
   pageTitle: {
-    home: "Carcamusa Labs",
+    home: "Carcamusa_Labs",
     about: "1. About",
     cv: "2. Contact & Media",
     projects: "3. Projects",
     artwork: "4. Artwork & Assets",
     store: "5. Unplugged",
     referrals: "6. Referrals & Mentors",
-    links: "Carcamusa Labs - Links",
+    links: "Carcamusa_Labs - Links",
   },
   announcement: {
     title: "Quick announcement!",
@@ -61,11 +61,11 @@ export const en = {
     collapsibleJourney: "BACKGROUND AND PERSONAL JOURNEY",
     roleBefore:
       "I'm a Software Development Engineer in Test (SDET). I build and maintain end-to-end automation for native iOS and Android: WebdriverIO, TypeScript, Cucumber, and Appium, running through GitLab CI, Xcode Cloud, and BrowserStack. I also test the builds by hand when the release needs it.",
-    labsBefore: "Carcamusa Labs",
+    labsBefore: "Carcamusa_Labs",
     labsAfter:
       " is my space to showcase work, experience, CV, artwork, and lessons from people who took the time to teach me along the way.",
     explore: "Six sections on this site — feel free to explore:",
-    section1Title: "1. About Carcamusa Labs",
+    section1Title: "1. About Carcamusa_Labs",
     section1Desc: "Who I am and why I do what I do.",
     section2Title: "2. CV & Contact",
     section2Desc: "Professional background and how to reach me.",
@@ -174,7 +174,7 @@ export const en = {
   store: {
     heading: "[ STORE ]",
     underConstruction: "[ UNDER CONSTRUCTION ]",
-    welcome: "Hi, and welcome to Carcamusa Labs' Store section.",
+    welcome: "Hi, and welcome to Carcamusa_Labs' Store section.",
     body: "Still under construction here, but at some point I'll be uploading my own games' merch or something.",
     romeroBefore: "Meanwhile though, here's a picture of me &",
     romeroMid: ", the legend behind",

@@ -33,14 +33,14 @@ export const es: TranslationDictionary = {
     siteSections: "Secciones del sitio",
   },
   pageTitle: {
-    home: "Carcamusa Labs",
+    home: "Carcamusa_Labs",
     about: "1. Acerca de",
     cv: "2. Contacto y medios",
     projects: "3. Proyectos",
     artwork: "4. Diseños y recursos",
     store: "5. Unplugged",
     referrals: "6. Referencias y mentores",
-    links: "Carcamusa Labs - Enlaces",
+    links: "Carcamusa_Labs - Enlaces",
   },
   announcement: {
     title: "¡Anuncio rápido!",
@@ -63,11 +63,11 @@ export const es: TranslationDictionary = {
     collapsibleJourney: "TRAYECTORIA Y RECORRIDO PERSONAL",
     roleBefore:
       "Soy Software Development Engineer in Test (SDET). Construyo y mantengo la automatización end-to-end para iOS y Android nativos: WebdriverIO, TypeScript, Cucumber y Appium, corriendo en GitLab CI, Xcode Cloud y BrowserStack. También pruebo las builds a mano cuando el release lo necesita.",
-    labsBefore: "Carcamusa Labs",
+    labsBefore: "Carcamusa_Labs",
     labsAfter:
       " es mi espacio para mostrar trabajo, experiencia, CV, diseños y lecciones de personas que se tomaron el tiempo de enseñarme.",
     explore: "Seis secciones en este sitio — explora lo que quieras:",
-    section1Title: "1. Acerca de Carcamusa Labs",
+    section1Title: "1. Acerca de Carcamusa_Labs",
     section1Desc: "Quién soy y por qué hago lo que hago.",
     section2Title: "2. CV y contacto",
     section2Desc: "Trayectoria profesional y cómo contactarme.",
@@ -177,7 +177,7 @@ export const es: TranslationDictionary = {
   store: {
     heading: "[ TIENDA ]",
     underConstruction: "[ EN CONSTRUCCIÓN ]",
-    welcome: "Hola, bienvenido/a a la sección Tienda de Carcamusa Labs.",
+    welcome: "Hola, bienvenido/a a la sección Tienda de Carcamusa_Labs.",
     body: "Todavía en construcción, pero en algún momento subiré merch de mis juegos o algo parecido.",
     romeroBefore: "Mientras tanto, aquí va una foto mía con",
     romeroMid: ", la leyenda detrás de",

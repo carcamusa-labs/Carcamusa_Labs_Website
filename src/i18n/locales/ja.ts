@@ -33,14 +33,14 @@ export const ja: TranslationDictionary = {
     siteSections: "サイトのセクション",
   },
   pageTitle: {
-    home: "Carcamusa Labs",
+    home: "Carcamusa_Labs",
     about: "1. 自己紹介",
     cv: "2. 連絡先・メディア",
     projects: "3. プロジェクト",
     artwork: "4. デザインとアセット",
     store: "5. Unplugged",
     referrals: "6. 紹介・メンター",
-    links: "Carcamusa Labs - リンク",
+    links: "Carcamusa_Labs - リンク",
   },
   announcement: {
     title: "ちょっとしたお知らせ！",
@@ -63,11 +63,11 @@ export const ja: TranslationDictionary = {
     collapsibleJourney: "経歴・パーソナルな歩み",
     roleBefore:
       "ソフトウェア開発テストエンジニア（SDET）です。ネイティブ iOS と Android の E2E 自動化を構築・保守しています。WebdriverIO、TypeScript、Cucumber、Appium を使い、GitLab CI、Xcode Cloud、BrowserStack で実行しています。リリースに必要なら、ビルドの手動テストもします。",
-    labsBefore: "Carcamusa Labs",
+    labsBefore: "Carcamusa_Labs",
     labsAfter:
       " は、仕事、経験、CV、デザイン、そして教えてくれた方々から学んだことを載せる場所です。",
     explore: "このサイトは6つのセクション — 気になるところからどうぞ：",
-    section1Title: "1. Carcamusa Labs について",
+    section1Title: "1. Carcamusa_Labs について",
     section1Desc: "私が誰で、なぜこれをしているか。",
     section2Title: "2. CV・連絡先",
     section2Desc: "経歴と連絡方法。",
@@ -175,7 +175,7 @@ export const ja: TranslationDictionary = {
   store: {
     heading: "[ ストア ]",
     underConstruction: "[ 工事中 ]",
-    welcome: "Carcamusa Labs ストアへようこそ。",
+    welcome: "Carcamusa_Labs ストアへようこそ。",
     body: "まだ工事中ですが、いずれゲームのグッズなどを載せる予定です。",
     romeroBefore: "その間、",
     romeroMid: "（『",
@@ -189,7 +189,7 @@ export const ja: TranslationDictionary = {
   },
   links: {
     intro1Before: "来てくれてありがとう。",
-    intro1Mid: "「Carcamusa Labs」のニトラムです。ウルグアイ出身の SDET、スペイン・トレド在住。",
+    intro1Mid: "「Carcamusa_Labs」のニトラムです。ウルグアイ出身の SDET、スペイン・トレド在住。",
     intro1End: "レトロ風のゲームも作っています。",
     myLinks: "リンク：",
     instagramMain: "Instagram",
