@@ -33,14 +33,14 @@ export const pt: TranslationDictionary = {
     siteSections: "Secções do site",
   },
   pageTitle: {
-    home: "Carcamusa_Labs",
+    home: "Carcamusa Labs",
     about: "1. Sobre mim",
     cv: "2. Contato e media",
     projects: "3. Projetos",
     artwork: "4. Designs e recursos",
     store: "5. Unplugged",
     referrals: "6. Referências e mentores",
-    links: "Carcamusa_Labs - Ligações",
+    links: "Carcamusa Labs - Ligações",
   },
   announcement: {
     title: "Anúncio rápido!",
@@ -63,11 +63,11 @@ export const pt: TranslationDictionary = {
     collapsibleJourney: "PERCURSO E TRAJETÓRIA PESSOAL",
     roleBefore:
       "Sou Software Development Engineer in Test (SDET). Construo e mantenho automação end-to-end para iOS e Android nativos: WebdriverIO, TypeScript, Cucumber e Appium, a correr em GitLab CI, Xcode Cloud e BrowserStack. Também testo as builds à mão quando o release precisa.",
-    labsBefore: "Carcamusa_Labs",
+    labsBefore: "Carcamusa Labs",
     labsAfter:
       " é o meu espaço para mostrar trabalho, experiência, CV, designs e lições de pessoas que se dispuseram a ensinar-me ao longo do caminho.",
     explore: "Seis secções neste site — explora à vontade:",
-    section1Title: "1. Sobre a Carcamusa_Labs",
+    section1Title: "1. Sobre a Carcamusa Labs",
     section1Desc: "Quem sou e por que faço o que faço.",
     section2Title: "2. CV e contato",
     section2Desc: "Percurso profissional e como entrar em contato.",
@@ -177,7 +177,7 @@ export const pt: TranslationDictionary = {
   store: {
     heading: "[ LOJA ]",
     underConstruction: "[ EM CONSTRUÇÃO ]",
-    welcome: "Olá, bem-vindo/a à secção Loja da Carcamusa_Labs.",
+    welcome: "Olá, bem-vindo/a à secção Loja da Carcamusa Labs.",
     body: "Ainda em construção, mas a dada altura vou carregar merch dos meus jogos ou algo do género.",
     romeroBefore: "Entretanto, aqui vai uma foto minha com",
     romeroMid: ", a lenda por trás de",

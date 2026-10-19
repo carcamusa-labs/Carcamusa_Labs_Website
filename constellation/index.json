@@ -1,0 +1,56 @@
+{
+  "format": "particle",
+  "title": "Carcamusa Labs",
+  "content": [
+    {
+      "type": "image",
+      "width": 400,
+      "height": 34,
+      "pixels": "NdYYYYYYYYYYYYYYYG MaDaChViCiCiCiCiCcIcCcFcCiCiYYYYYYYYYI LaFcHcSiCiCiCiCiCcIcCcFcCiCiYYYYYYYYCcYC KaCaFhCbQiCiCiCiCiCcIcCcFcCiCiYYYYYYYYCcYC JaCbCdFdBaPcIcCcCcCcCcIcCcCfCfCcFcCcIcCcYYYYYYYYCcYC JaBbCbCfCcAaOcIcCcCcCcCcIcCcCfCfCcFcCcIcCcYYYYYYYYCiCcCcJ JaEcAlAcAaNcIcCcCcCcCcIcCcCfCfCcFcCcIcCcYYYYYYYYCiCcCcJ KaCcAnBbAaMcIcCcCcCcCcIcCcCcCcCcCcFcCiCcCcYYYYYYYYCiCcCcJ KaBbBqAbAaLcIcCcCcCcCcIcCcCcCcCcCcFcCiCcCcYYYYYYYYCcCcCiJ KaBbBqAbAaLcIcCcCcCcCcIcCcCcCcCcCcFcCiCcCcYYYYYYYYCcCcCiJ KaAbAtAbAaKcIiCfFcIiCcIcCcFcIcCiYYYYYYYYCcCcCiJ KaAaAvAaAaKcIiCfFcIiCcIcCcFcIcCiYYYYYYYYCcCcIcJ KaAaAvAaAaKcIiCfFcIiCcIcCcFcIcCiYYYYYYYYCcCcIcJ JaAbAeAjAeAbAaJiCcCcCcCcCiCcCcCcIcClCiCcCcYYYYYYYYCcCcIcJ JaAaAhHhAaAaJiCcCcCcCcCiCcCcCcIcClCiCcCcYYYYYYYYCiCiJ JaAaAgAhAgAaAaJiCcCcCcCcCiCcCcCcIcClCiCcCcYYYYYYYYCiCiJ JaAaAfAbFbAfAaAaYYYYYYYYYYYYYBiCiJ JaAaAfAbFbAfAaAaYYYYYYYYYYYDcFcCcCcYYE JaAaAgAhAgAaAaJcFiCiCiYYYYYYYYYBcFcCcCcYYE JaAaAhHhAaAaJcFiCiCiYYYYYYYYYBcFcCcCcYYE JaAbAeAjAeAbAaJcFiCiCiYYYYYYYYYBfCcIfCiCiCoJ KaAaAvAaAaKcFcCcCcCcCcYYYYYYYYYHfCcIfCiCiCoJ KaAaAvAaAaKcFcCcCcCcCcYYYYYYYYYHfCcIfCiCiCoJ KaAbAtAbAaKcFcCcCcCcCcYYYYYYYYYHcCfCcCcFcCcIcCcCcCcJ LaAbBqAbBaKcFcCcCfFiYYYYYYYYYBcCfCcCcFcCcIcCcCcCcJ MaAcAnBbCaKcFcCcCfFiYYYYYYYYYBcCfCcCcFcCcIcCcCcCcJ MaAcAnBbCaKcFcCcCfFiYYYYYYYYYBcFcCcCcFcIcCcCcCcCcJ NaAcAlAcEaJcFiCcCcIcYYYYYYYYYBcFcCcCcFcIcCcCcCcCcJ OaBbCfCcBbBaJcFiCcCcIcYYYYYYYYYBcFcCcCcFcIcCcCcCcCcJ PbAdFdCbCaJcFiCcCcIcYYYYYYYYYBcFcCcCfCcIiCcCcCcJ RaChFaCaKfCcCcCiCiYYYYYYYYYBcFcCcCfCcIiCcCcCcJ ScHcFaLfCcCcCiCiYYYYYYYYYBcFcCcCfCcIiCcCcCcJ VhCbCaMfCcCcCiCiYYYYYYYYYYYYF YJcYYYYYYYYYYYYYYL"
+    },
+    {
+      "type": "paragraph",
+      "text": "A one-dude indie game studio, making games for the Playdate and PC.\nCurrently working on *CRXSSPR3SS* for the Playdate!\n\nNitram, from Montevideo, Uruguay, living in Toledo, Spain.\n\nWelcome to this Playdate-only corner of my page!"
+    },
+    {
+      "type": "button",
+      "pre-label": "Check my first Playdate game",
+      "label": "Kazoku",
+      "action": "/kazoku",
+      "icon": "sparkles"
+    },
+    {
+      "type": "button",
+      "pre-label": "Or read a little bit about my indie",
+      "label": "Game studio",
+      "action": "/studio",
+      "icon": "speech-bubble"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "text": "Also, point a phone camera at this QR to check all my links!\ncarcamusalabs.com/links"
+    },
+    {
+      "type": "image",
+      "width": 37,
+      "height": 37,
+      "pixels": "yl yl yl yl dGbAaBaAcBbGd dAeAaAaAbAeAbAeAd dAaCaAbAbAbAcAbAaCaAd dAaCaAbAcAbAaAcAaCaAd dAaCaAaAaAaBbEaAaCaAd dAeAbCbCaCaAeAd dGaAaAaAaAaAaAaAaGd mAbAbAaBn dAaAaAaAbAaAdBfAbAe fAgAaBaBcCbAbAd dAbFcAaCcAaBbCd dAcBaHaCdAcAe dCaAaAaAbAbBaBaCbAaBd dDaAaAaBaAaBdCbAbAd dBcDbCcAcAcAaBd iAbAaCbAaCcAaAaAe fEaAaAeBbDaAaBd eAbAeBaAaBcAaAbBaAd dAaBbBbCaCcEbBd eAgFaBaBbAaAaAe dAbEaBcDaFh lEaBcBcAaCd dGcDdCaAaBaBd dAeAcAaAdBaAcBbAd dAaCaAaBbAdAbEbAe dAaCaAcAeAfBaAf dAaCaAaAcBcAbBaCbAd dAeAbCaAcAaCbAbAe dGaBaBaDaCbAbBd yl yl yl yl",
+      "style": {
+        "scale": 3,
+        "margin-top": 4,
+        "margin-bottom": 8
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "*Kazoku* (my first finished Playdate and also PC game) is now available for *FREE* on itch.io.\nSadly, it didn't make it into the catalog, but you can get it if you open [ carcamusa-labs.itch.io/kazoku ] on a computer or phone."
+    },
+    {
+      "type": "paragraph",
+      "text": "The rest of the studio is at\n*[ carcamusalabs.com ]*\nFeel free to check it out!"
+    }
+  ]
+}

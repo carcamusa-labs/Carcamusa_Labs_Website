@@ -12,7 +12,7 @@ export function AboutPage() {
 
       <h2>{t("about.heading")}</h2>
       <p className="indented_p">
-        {t("about.introBefore")} <b>Carcamusa_Labs</b>
+        {t("about.introBefore")} <b>Carcamusa Labs</b>
         {t("about.introAfter")}
       </p>
       <img src="/assets/visuals/other/its_a_me.jpeg" alt={t("common.selfPortraitAlt")} id="about_selfie" />

@@ -1,0 +1,76 @@
+{
+  "format": "particle",
+  "title": "Kazoku",
+  "content": [
+    {
+      "type": "image",
+      "width": 380,
+      "height": 90,
+      "pixels": "YYYYYYYYYYYYYYEaX YYYYYYYYYYYYYYEaX YYYYYYYYYYYYYYFaW YYYYYYYYYYYYYYFaW YYYYYYYYYYYYYYFaW YYYYYYYYYYYYYYFaW TkJqSdFfWcDtFeUkYCjPoGhUlYYCaW TkJqSdEgVeCsFeUlYBjQoGiSmYYDaV SlJqTcEgVfBsDgPpDcUkOpGjRmYYDaV SkJqUcDhUgBrDgPqCeViNpFaAkPmYYFaU RlJpRaCcCjTyaDhNrDfRbBiLpHmNnYYFaU RkJpRcCbCjTyaBjMsCiPcDfJqInMmYYGaU QlIpSeAbAmSyaAkLtCjOdDfIpJnLnYYGaU OaAlIoSiAmSyAlLtAmNfAaBdIoJnMnYYGaU OkKpRjAmSwBmKtAnMhBaCaGaAnJoMnYYHaT OjKpSjAmRwAnLsApLjAcGcAmJnMoYYHaT OiKqRkAmRvAoKsArKkAcEeAkKnMoYQrS OhKjBeSkAmRtBoLrAjAhLjAbFeAjLnMjAdYPaQbR OgLkCbSlAmYMpLrAjCgMjGgAhLoMjCbYNbIaJaQ OfEaFlXlAmYLpMqDgDgNkEhAfMnNlYPbJaKcN NeFcDnVmAmYKpMpHfChIaDjDiAfMnNkYPbKaNaM NcGdCoVmAmYIqMoKeBiIoCkAcOnNlYLcMaObK MdFeCoUmBmYHqNnMpGpCkAbPnMnYKaOaQbI MbHdCoVmBmYHpNnNpGoCmAaOoMnYJaPaSbG MaHeBpUmCnYEqOnNpGnCnQlPnYYAaVaF MaGfBoVmCmYEqOnOpGnBoQkQnYYAaVaF TgAoVnClYEqPnOpGnBoPjDaMoYYAaWbD TgAnVnDkYFpPnPpGnAoQhCdMoYYAaYbB ShAnVnDjBaYBqPoPpGnAnReEeLpYYAaYBaA SgAnVhEaEjAdYpQnQpFoAlTcEeNpYYAaYCa RhAnViJoYClQoQpFnBiWaHcOoXdJdIaYE QiAoTjJoVbBaDhRoQpEoAiBaYcCbOoWdAaHaAdYN PiApTlHoUeHdShCdQoFoAoUdTnWdAcFcAdYM OjAqRnGoTiYChDcQoFoApRfBaQnWcAdFdAcYM NkBpRtAoUkYhCdPoGoApPjRnWbAeFeAbYM MlBpQuAeCfSbBlWoPoGnBqOkPjBaOiAaAfAdAfAaYM LmBoRuAeCeSdCkVoPoGnBqOlJaDjAcMkAfAfAfYN KmDmRvAeAfSgCgXpNmAbGnCqNmGeAiBeMkAdAhAdYCbJ JnDlTuAlBaOiEcYqLoInDpNnEfBhAgOiDjYEeI JnDkVtAkBaAaMlBaAaYBpKoJnDpNoDgAhAhNycXfI JnDiGaLcCrAjDbLnYFpIqJgKpNpCgAhAhIyiVhH IoEgAaEbKeDpAiDcKpYEqGsVaEoNqAhAhAhIrBmWiG IoEfAaEdJfDoAaBeCeJqYFqEsYDnOqAhAhAiInDmYhG HoFfFeIhDnAaBdCfIpFdCjKrCsMjFnBaLjHiHaAhYAmUaDgH HoFeFgHiElAaBcCgHpGeBjLrAtJlGlDaMhByAgXoTdDdJ HnHcEiGjFkCdBhHoFgBiNpAtInHkDaMdAbByaAgVnVfCcK HnHcDjGkSbDhGoAmChOnAtJnHkDbLbCaBycAfToUhCbL HnIaDlEmRcBhHmBoBhPlAeClKnIiDcMaCaAydAfRoVjP HnLnEnQbBiHlAybQkAsKoIiDdOcBycAeCaMoXjO GoKpCoQaBiIkAycRiArMoIjCdOcBycAcDaLnYAjP GoJqCoSjHkAydSgAqNoJkBeNdAycAcCbJpYjQ GoJrApRjIiBybAaUeAqOaAmJiAaCdPcDjMaBaDcGoYChS GoJrAoRjAaHhAycXdApSmKdAcEdRbAbAiAdHbAaCdEnYAaBiT GoKyhRjAaHgAycYBbAmWlKdBbFcTcAkKbAaBeCoYdBgU GnLygSkIeBybYFmYkLcJcUbAhAaLdAeBnYBeCdW YYYYYYYYYYTfPcAeBtArBgCbX YYYYYYYYYYSaVcAeAtBqBhYD YYYYYYYYYYYQcAdAtBqBkYB YYYYYYYYYYYAaOdAcAtBqAkYC YYYYYYYYYYShOdAcAsBrAkYC YYYYYYYYYYShOdBbBqCrAkYC YYYYYYYYYYSgPeAcBoCtAkYB yyyyyyyyyyqAhAnAeAdYnBkBx yyyyyyyyyyqAhAnAfAeBoBrClAw YYYYYYYYYYRhPgAdQsEkX yyyyyyyyyyqAgAoAhDnBrBeAlAu yyyyyyyyyypAhAoAhAoBrBhAlBs yyyyyyyyyypAhAoAhAnArBkBkBr YYYYYYYYYYQhQhOqRkS YYYYYYYYYYPiQhNoVlQ YYYYYYYYYYPhGbIhMnYAkP YYYYYYYYYYPhFdHhMlYDkO YYYYYRcYYYYThEfGhQfYGkN YObYMeYKaRcYYYYWgFgFhPfYIlL cYLbYLbCcVaKaOcYYFaYYRhFgFhOgHbYlK BcYJaAaTbMaAaEaEcDcFaAaJaLcAaOaYAaFaGbYYQhFgFhMiFdYBkJ DbYHbAaMaAaEaEdFaDbEbAaCaAaFcJaPaMcHaAbFaFbFaHaGbUaYKhFgFgNtYBlH EbYaFaCaMbFaCdAaEaCaGbAaCaAaFdIaPaMdGaAbFbFaFaIaFaUbYKgGgFfPsYDjH FbPbEbFaCaMbFaCaBaBaDaCaGbBaBaAaEbBaHaQaLbBaGaAaAaEbFaEaJbDaMbGaYMfGkBbUsYDkF GcMdCaGbDaLcEaBaFaDaAbHbBaAaBaEbCaGaQaLaDaFaAaAbBbAaFaEaLdLbBaDbYOdHkYAsYCjG JeGaDaBaGaFaKcEaAaGaDaAaIbBbCaEaEaFaQgEaEaGbBaBaCaEaDaOaMaDaCaYQbIlFcQrYEgH NbFaDaAaHbEaKcEaAaGbCbJbGaDcEaEaOdJbEaFbBdCaEaDaOaLaFcYYDmCeRoYHfH OaEaFaHbAbDaJbAaDaAaGaDcIaIaCaBcBaDbQaJeDaEaDbDaEaDaMbMaGaYYEnCcTlYLcI OaUbCgHbAaCaBbEbDaBaHaIaCaEeBaRaJaDbBaEaJaEaDaLaYYYEnCaWhYObI OaUaJcFbBdDeFaBbQaMbBaQaQbAaDaJaEaEaCdBcYYYHlYBeYYC PaTaYQaDdYFgKaScTaEdFbYYYJlYYYI PaTaYYaYYVaYYYYYYYYR PaYYYYYYYYYYYYYYM QaYYYYYYYYYYYYYYL QaYYYYYYYYYYYYYYL",
+      "style": {
+        "scale": 1,
+        "margin-top": 6,
+        "margin-bottom": 8
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "A fast arena boss fighter for the Playdate! (Now also on PC).\n\nCode, art, animations and music, made from scratch, all human-made, no AI.\nMade with lots of love in Lua, with the Playdate SDK."
+    },
+    {
+      "type": "list",
+      "items": [
+        "*1-bit aesthetic* (of course). The whole fight lives in black and white.",
+        "*Entirely human-made, no AI.* Code, art, and animations by Nitram, with the help of fakku-oli97 (some artworks) and Msoundworks / Teja (music).",
+        "*Playdate SDK* for the Playdate ports. *LOVE-2D* for the PC port."
+      ]
+    },
+    {
+      "type": "image",
+      "width": 200,
+      "height": 20,
+      "pixels": "YYYYYYEbYR BrAyyyxCoCcAcFaBaCylB AaRaYYYXaAaEaIaBaAbCbDaBaBaYLaA AaCcFcCaBbCbDaJaEdFcGaAbIeFbFaJeAaAaGfBaBeDaBaDaAaEcBaAbAbAaCcFdBaA AaBaCaDaCaBaAaBaAaBaMaAaCaDaHaEaCbHaDeDbBaAaLbAaAaFaDaAaAaCbBaAcBaDaAaAcAaAaBiBaCbCaDaAaA AaBaAaAaDaAaAaBaAdAdBaKaDaAbAcChCaAdFeDaAbDaAaAaAfGaAaEfBaAaBaAcBaBaAaDaAaAaAaAcBaAbAbAaBgBfAaA AaBaCaDaCaBaAdAdFaBbHaDaBaEaFbAdEaEeAbAbAeAbBaAaFaAaEbCaBaAaBaAaBbAcAbCaAaAcFaAbAbAaAaAaDaCgA AaCcFcCaBbCbFbDbGhBcGbAeDaIaDbAaBbAaAaAbAaBbAaAcCdAaBaAaBaAeAaAaAcBaAaFaDaBaBaBaCaAaBbFaA AaRaNaAaFfBaEaFbDaAgCaHaHaAaAaAaBbAaAfAbDaBcAaBaCaAaBbAaBdAaAaAaCaBaKaBaCaDcBaA AaRaBjBaAaHaBaBaEaBcBbBaBbDaCeDaHbBaAfAeAaAaFfCaAaAaAeAbAfAaGaIbBgCaCaAaA AaDbFbDaAaJaAaAaHcDeDcBbFcEbCeAeBeNaAaNaEbCbAaAfAaCaEgAbLdBaA AaCaBaDaBaCaAaBcAbBaAaAaYEaEcBaBbFbBaAaAaMbBbBaAaOaAbCcAcAfAaBcAaBbDaNaCaBaA AaCaBaDaBaCaAaAdAbBaAcIcKdHaDbBbJbAbBaAcFaAbAaBaAaOaAaLaAdAaAgAaAaAbAaFaAaEdBaA AaDbFbDaAaAdEaBbDaCaCcEaAaDbJaAaAbCbFaAaAaBaBaBfAaAbBaAaLaBaCdCbBaBcAaAaEaBbDaBaAaAaAaAbBaCaAaA AaRaAaBcBbAaBbCaAaBaAaDaEbFaHaBaAbBaBaEbAbBbCaEaDaBaBoCcAbAbAaAaCbAaBaCaCaAaDaBhAaBcBaA AaBbBbBbBbBaAaGbAaBbDaCaFaDaAaDbFcBaBaCaBaEaAbGaGdAaAaCbBaAaBaAbDbAaAaAaAbAaDaAaCcEgAaAaAaAaAbBaCaAaA AaBbBbBbBbBaBjNfHdGaDaHbFcDbBaLaAaEiFaAaAbAbAaAaDaAaKgEaAaAcBcBaA AaRaYYBdYCaBeBbBaHeHaBcAbAaAaDaAaYLaA BrAyyyiAaDaAaAaAaAaVdCbCdCylB YYYYGdCaCaYYYF",
+      "style": {
+        "scale": 2,
+        "margin-top": 6,
+        "margin-bottom": 8
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "Kazoku was sent for review to the Playdate Store, although it was not accepted (and I am still waiting for a valid reason tbh, shame on you, Playdate guys. Not cool, dude).\n\nHowever, instead of crying in a corner, I decided to bring it to you all *FOR FREE* instead. Get your copy on itch.io!\n*[ carcamusa-labs.itch.io/kazoku ]*\n\nStandard, Unhinged and PC versions available!"
+    },
+    {
+      "type": "paragraph",
+      "text": "*The house*"
+    },
+    {
+      "type": "image",
+      "width": 32,
+      "height": 32,
+      "pixels": "YG BcJbO AcJdN AbEbCfM AbEbBhL AcEaAjK BcCaAaBbBeJ IdBhI HpH GqH FfBdBbCaF EaBbBhBbAbE DdBnAcD CuAdC YG GsF GtE FuE EcCjCcE EcCjCcE EcCjCcE EeAkAdE EeApE EhFhE EhFhE EhFhE EhFhE EhFdAcE FdAbFdBbE YG YG YG",
+      "style": {
+        "scale": 4,
+        "margin-top": 6,
+        "margin-bottom": 8
+      }
+    },
+    {
+      "type": "paragraph",
+      "text": "(Well, this is the game's icon actually, ngl.)"
+    },
+    {
+      "type": "button",
+      "pre-label": "Wanna go in and...",
+      "label": "Meet Kazoku's characters?",
+      "action": "/cast",
+      "icon": "search"
+    },
+    {
+      "type": "button",
+      "label": "Back",
+      "action": "/",
+      "icon": "go-back"
+    }
+  ]
+}

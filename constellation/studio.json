@@ -1,0 +1,57 @@
+{
+  "format": "particle",
+  "title": "The studio",
+  "content": [
+    {
+      "type": "heading",
+      "text": "Hi, I'm Nitram! The one-dude behind Carcamusa Labs!",
+      "icon": "waving"
+    },
+    {
+      "type": "paragraph",
+      "text": "A guy from Uruguay, currently living in Toledo, Spain.\nI work full-time as a SDET, and I love making games in my free time! Of course, I'd love to be able to make a living out of this some day, so here I am, doing extra hours for a dream!"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "text": "*Kazoku* (Standard, Unhinged (Playdate) and PC) is the first 'serious' and finished game I've made, and I'm currently working on *CRXSSPR3SS* for the Playdate.\nNot finished yet, but will be a good one, and you can take a peek at the page here:\n*[ carcamusa-labs.itch.io/crxsspr3ss ]*"
+    },
+    {
+      "type": "separator"
+    },
+    {
+      "type": "paragraph",
+      "text": "I draw since I was a child, pencil/pen and paper, and now I'm trying to make games with code and pixels. I'm not a professional, but I'm trying my best!\n\nI love the *Black & White* aesthetic, and as a retro games' collector I always try to bring that vibe in to my games.\n\nCurrently it's only me myself working on the games, but I'm always open to collaborate with other people! Feel free to contact me if you're interested in working together!"
+    },
+    {
+      "type": "paragraph",
+      "text": "Check out all my links here!\n*[ carcamusalabs.com/links ]*"
+    },
+    {
+      "type": "image",
+      "width": 37,
+      "height": 37,
+      "pixels": "yl yl yl yl dGbAaBaAcBbGd dAeAaAaAbAeAbAeAd dAaCaAbAbAbAcAbAaCaAd dAaCaAbAcAbAaAcAaCaAd dAaCaAaAaAaBbEaAaCaAd dAeAbCbCaCaAeAd dGaAaAaAaAaAaAaAaGd mAbAbAaBn dAaAaAaAbAaAdBfAbAe fAgAaBaBcCbAbAd dAbFcAaCcAaBbCd dAcBaHaCdAcAe dCaAaAaAbAbBaBaCbAaBd dDaAaAaBaAaBdCbAbAd dBcDbCcAcAcAaBd iAbAaCbAaCcAaAaAe fEaAaAeBbDaAaBd eAbAeBaAaBcAaAbBaAd dAaBbBbCaCcEbBd eAgFaBaBbAaAaAe dAbEaBcDaFh lEaBcBcAaCd dGcDdCaAaBaBd dAeAcAaAdBaAcBbAd dAaCaAaBbAdAbEbAe dAaCaAcAeAfBaAf dAaCaAaAcBcAbBaCbAd dAeAbCaAcAaCbAbAe dGaBaBaDaCbAbBd yl yl yl yl",
+      "style": {
+        "scale": 3,
+        "margin-top": 4,
+        "margin-bottom": 8
+      }
+    },
+    {
+      "type": "button",
+      "pre-label": "Check my first Playdate game",
+      "label": "Kazoku",
+      "action": "/kazoku",
+      "icon": "sparkles"
+    },
+    {
+      "type": "button",
+      "label": "Home",
+      "action": "/",
+      "icon": "home"
+    }
+  ]
+}
