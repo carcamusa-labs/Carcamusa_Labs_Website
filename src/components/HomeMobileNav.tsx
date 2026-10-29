@@ -6,7 +6,7 @@ const SECTION_ROUTES = [
   "/2_cv_contact.html",
   "/3_projects.html",
   "/4_artwork_assets.html",
-  "/5_store.html",
+  "/tools/sfx",
   "/6_referrals_mentors.html",
 ] as const;
 
@@ -15,7 +15,7 @@ const SECTION_LABEL_KEYS = [
   "nav.contact",
   "nav.projects",
   "nav.artwork",
-  "nav.store",
+  "nav.sfx",
   "nav.referrals",
 ] as const;
 

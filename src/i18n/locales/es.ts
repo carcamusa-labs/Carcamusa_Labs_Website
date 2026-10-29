@@ -29,6 +29,7 @@ export const es: TranslationDictionary = {
     artwork: "4. Assets",
     store: "5. Tienda",
     referrals: "6. Referencias",
+    sfx: "5. SFX Lab",
     quickLinks: "Accesos rápidos a secciones",
     siteSections: "Secciones del sitio",
   },
@@ -41,6 +42,7 @@ export const es: TranslationDictionary = {
     store: "5. Unplugged",
     referrals: "6. Referencias y mentores",
     links: "Carcamusa_Labs - Enlaces",
+    sfx: "SFX Lab — Carcamusa_Labs",
   },
   announcement: {
     title: "¡Anuncio rápido!",
@@ -149,6 +151,9 @@ export const es: TranslationDictionary = {
   projects: {
     heading: "[ PROYECTOS ]",
     subheading: "Lista de proyectos en los que he trabajado",
+    sfxLabCta: "→ SFX Lab gratis — efectos 8-bit / 16-bit en el navegador",
+    openTool: "[Abrir herramienta]",
+    sfxLabDesc: "Laboratorio SFX 8-bit gratis en el navegador — Core / trémolo / vibrato / arp, modos Simple y Avanzado, export WAV. Vive en esta web; sin GitHub.",
     kazokuDesc:
       "Arena boss fighter a ritmo rápido para la Playdate 1-bit, hecho en Lua con el Playdate SDK — código, arte y animación desde cero.",
     crxsspr3ssDesc:

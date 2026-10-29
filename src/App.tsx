@@ -6,6 +6,7 @@ import { HomePage } from "./pages/HomePage";
 import { LinksPage } from "./pages/LinksPage";
 import { ProjectsPage } from "./pages/ProjectsPage";
 import { ReferralsPage } from "./pages/ReferralsPage";
+import { SfxLabPage } from "./pages/SfxLabPage";
 import { StorePage } from "./pages/StorePage";
 
 export default function App() {
@@ -19,6 +20,8 @@ export default function App() {
       <Route path="/4_artwork_assets.html" element={<ArtworkAssetsPage />} />
       <Route path="/5_store.html" element={<StorePage />} />
       <Route path="/6_referrals_mentors.html" element={<ReferralsPage />} />
+      <Route path="/tools/sfx" element={<SfxLabPage />} />
+      <Route path="/sfx" element={<Navigate to="/tools/sfx" replace />} />
       <Route path="/links" element={<LinksPage />} />
       <Route path="/links.html" element={<LinksPage />} />
       <Route path="*" element={<Navigate to="/" replace />} />

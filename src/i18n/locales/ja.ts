@@ -29,6 +29,7 @@ export const ja: TranslationDictionary = {
     artwork: "4. Assets",
     store: "5. ストア",
     referrals: "6. 紹介",
+    sfx: "5. SFX Lab",
     quickLinks: "セクションへのショートカット",
     siteSections: "サイトのセクション",
   },
@@ -41,6 +42,7 @@ export const ja: TranslationDictionary = {
     store: "5. Unplugged",
     referrals: "6. 紹介・メンター",
     links: "Carcamusa_Labs - リンク",
+    sfx: "SFX Lab — Carcamusa_Labs",
   },
   announcement: {
     title: "ちょっとしたお知らせ！",
@@ -149,6 +151,9 @@ export const ja: TranslationDictionary = {
   projects: {
     heading: "[ プロジェクト ]",
     subheading: "取り組んできたプロジェクト",
+    sfxLabCta: "→ 無料 SFX Lab — ブラウザで 8/16-bit SE を作成",
+    openTool: "[ツールを開く]",
+    sfxLabDesc: "ブラウザ内の無料 8-bit SFX Lab。Core / tremolo / vibrato / arp、Simple / Advanced、WAV 書き出し。このサイト上で完結（GitHub なし）。",
     kazokuDesc:
       "1-bit Playdate 向けの高速アリーナ・ボスファイター。Playdate SDK・Lua でコード・アート・アニメを一から制作。",
     crxsspr3ssDesc:

@@ -1,6 +1,7 @@
+import type { ReactNode } from "react";
+import { Link } from "react-router-dom";
 import { InnerPageLayout } from "../components/InnerPageLayout";
 import { useTranslation } from "../i18n/useTranslation";
-import type { ReactNode } from "react";
 
 const PROJECT_URLS = {
   hospitality: {
@@ -24,17 +25,23 @@ const PROJECT_URLS = {
 function ProjectActionLinks({
   demo,
   github,
+  internal,
 }: {
   demo: string;
   github?: string;
+  internal?: boolean;
 }) {
   const { t } = useTranslation();
 
   return (
     <p className="projects_project_links">
-      <a href={demo} target="_blank" rel="noreferrer">
-        {t("projects.liveDemo")}
-      </a>
+      {internal ? (
+        <Link to={demo}>{t("projects.openTool")}</Link>
+      ) : (
+        <a href={demo} target="_blank" rel="noreferrer">
+          {t("projects.liveDemo")}
+        </a>
+      )}
       {github ? (
         <>
           {" - "}
@@ -56,6 +63,7 @@ function ProjectCard({
   platform,
   description,
   year,
+  internal,
 }: {
   side: "left" | "right";
   preview: ReactNode;
@@ -65,6 +73,7 @@ function ProjectCard({
   platform: string;
   description: string;
   year: string;
+  internal?: boolean;
 }) {
   return (
     <div className={`grid_container_inner_${side} projects_card`}>
@@ -73,7 +82,7 @@ function ProjectCard({
         <h3 className="projects_project_title">
           <b>{title}</b>
         </h3>
-        <ProjectActionLinks demo={demo} github={github} />
+        <ProjectActionLinks demo={demo} github={github} internal={internal} />
         <p className="projects_project_platform">{platform}</p>
         <p className="projects_project_desc">{description}</p>
         <p className="projects_project_year">{year}</p>
@@ -114,6 +123,22 @@ ORDER BY month;`}
         <ProjectCard
           side="right"
           preview={
+            <div className="projects_sfx_preview" aria-hidden="true">
+              <span>SFX LAB</span>
+              <span className="projects_sfx_preview__wave">∿⊓╱▦</span>
+            </div>
+          }
+          title="SFX Lab"
+          demo="/tools/sfx"
+          internal
+          platform={t("projects.platformWeb")}
+          description={t("projects.sfxLabDesc")}
+          year="2026"
+        />
+
+        <ProjectCard
+          side="left"
+          preview={
             <img
               src="/assets/visuals/projects_images/projects_crxsspr3ss.png"
               alt="CRXSSPR3SS on Playdate Simulator"
@@ -127,7 +152,7 @@ ORDER BY month;`}
         />
 
         <ProjectCard
-          side="left"
+          side="right"
           preview={<img src="/assets/visuals/projects_images/projects_kazoku.PNG" alt="" />}
           title="「Kazoku」"
           demo="https://carcamusa-labs.itch.io/kazoku"
@@ -137,7 +162,7 @@ ORDER BY month;`}
         />
 
         <ProjectCard
-          side="right"
+          side="left"
           preview={
             <img
               src="/assets/visuals/projects_images/projects_fotomatic.png"
@@ -153,7 +178,7 @@ ORDER BY month;`}
         />
 
         <ProjectCard
-          side="left"
+          side="right"
           preview={<img src="/assets/visuals/projects_images/projects_drumpad.PNG" alt="" />}
           title="Drumpad"
           demo={PROJECT_URLS.drumpad.demo}
@@ -164,7 +189,7 @@ ORDER BY month;`}
         />
 
         <ProjectCard
-          side="right"
+          side="left"
           preview={<img src="/assets/visuals/projects_images/projects_shashin.png" alt="" />}
           title="最初写真 (Saisho Shashin)"
           demo={PROJECT_URLS.shashin.demo}
