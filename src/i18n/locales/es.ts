@@ -44,13 +44,13 @@ export const es: TranslationDictionary = {
   },
   announcement: {
     title: "¡Anuncio rápido!",
-    p1Before: "¡Hola! Gracias por leer esto. Mi primer juego para la consola",
+    imageAlt: "CRXSSPR3SS en el simulador de Playdate",
+    p1Before: "¡Hola! Gracias por leer esto. Mi juego más reciente para la consola",
     p1After: ",",
     p1End: ", ya está disponible en",
-    storeReview: "También se envió a revisión para ver si podía publicarse en la",
-    storeRejectedBefore:
-      "Por desgracia, no fue aceptado en la Playdate Store (quién sabe por qué), pero sigue disponible en",
-    storeRejectedAfter: "como mencioné arriba.",
+    catalogBefore: "También lo envié al",
+    catalogAfter: " para revisión — ya veremos. Mientras tanto lo puedes pillar en",
+    catalogEnd: ".",
     instagramBefore: "Para novedades sobre trabajos actuales y futuros, visita mi",
     instagramLink: "página de Instagram",
     thanks: "¡Muchas gracias por tu apoyo — sigue genial!",
@@ -151,6 +151,8 @@ export const es: TranslationDictionary = {
     subheading: "Lista de proyectos en los que he trabajado",
     kazokuDesc:
       "Arena boss fighter a ritmo rápido para la Playdate 1-bit, hecho en Lua con el Playdate SDK — código, arte y animación desde cero.",
+    crxsspr3ssDesc:
+      "Combo-maker de reflejos en monocromo para Playdate — matching de cues, multiplicadores, tienda de perks CX1NS y hi-scores locales + online.",
     drumpadDesc:
       "Caja de ritmos web (Hack A Boss Spain, 2023). HTML, CSS y JavaScript vanilla — toca con ratón o teclado.",
     fotomaticDesc:

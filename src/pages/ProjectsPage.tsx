@@ -113,6 +113,21 @@ ORDER BY month;`}
 
         <ProjectCard
           side="right"
+          preview={
+            <img
+              src="/assets/visuals/projects_images/projects_crxsspr3ss.png"
+              alt="CRXSSPR3SS on Playdate Simulator"
+            />
+          }
+          title="CRXSSPR3SS"
+          demo="https://carcamusa-labs.itch.io/crxsspr3ss"
+          platform={t("projects.platformPlaydate")}
+          description={t("projects.crxsspr3ssDesc")}
+          year="2026"
+        />
+
+        <ProjectCard
+          side="left"
           preview={<img src="/assets/visuals/projects_images/projects_kazoku.PNG" alt="" />}
           title="「Kazoku」"
           demo="https://carcamusa-labs.itch.io/kazoku"
@@ -122,7 +137,7 @@ ORDER BY month;`}
         />
 
         <ProjectCard
-          side="left"
+          side="right"
           preview={
             <img
               src="/assets/visuals/projects_images/projects_fotomatic.png"
@@ -138,7 +153,7 @@ ORDER BY month;`}
         />
 
         <ProjectCard
-          side="right"
+          side="left"
           preview={<img src="/assets/visuals/projects_images/projects_drumpad.PNG" alt="" />}
           title="Drumpad"
           demo={PROJECT_URLS.drumpad.demo}
@@ -149,7 +164,7 @@ ORDER BY month;`}
         />
 
         <ProjectCard
-          side="left"
+          side="right"
           preview={<img src="/assets/visuals/projects_images/projects_shashin.png" alt="" />}
           title="最初写真 (Saisho Shashin)"
           demo={PROJECT_URLS.shashin.demo}

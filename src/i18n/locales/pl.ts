@@ -44,13 +44,13 @@ export const pl: TranslationDictionary = {
   },
   announcement: {
     title: "Szybkie ogłoszenie!",
-    p1Before: "Hej! Dzięki, że poświęcasz chwilę. Moja pierwsza gra na konsolę",
+    imageAlt: "CRXSSPR3SS na symulatorze Playdate",
+    p1Before: "Hej! Dzięki, że poświęcasz chwilę. Moja najnowsza gra na konsolę",
     p1After: ",",
     p1End: ", jest już dostępna na",
-    storeReview: "Została też wysłana do recenzji, żeby sprawdzić, czy mogłaby trafić do",
-    storeRejectedBefore:
-      "Niestety nie została zaakceptowana w Playdate Store ( kto wie dlaczego ), ale nadal jest dostępna na",
-    storeRejectedAfter: "jak wspomniałem wyżej.",
+    catalogBefore: "Została też wysłana do",
+    catalogAfter: " do recenzji — zobaczymy. Na razie możesz ją złapać na",
+    catalogEnd: ".",
     instagramBefore: "Aby śledzić aktualne i nadchodzące prace, zajrzyj na moją",
     instagramLink: "stronę na Instagramie",
     thanks: "Dzięki za wsparcie — bądź super!",
@@ -151,6 +151,8 @@ export const pl: TranslationDictionary = {
     subheading: "Lista projektów, nad którymi pracowałem",
     kazokuDesc:
       "Szybka arena boss fighter na 1-bitową Playdate, zbudowana w Lua z Playdate SDK — kod, grafika i animacja od zera.",
+    crxsspr3ssDesc:
+      "Monochromatyczny reflex combo-maker na Playdate — dopasowywanie cue'ów, mnożniki, sklep perków CX1NS oraz lokalne i online hi-score'y.",
     drumpadDesc:
       "Webowa maszyna perkusyjna (Hack A Boss Spain, 2023). Vanilla HTML, CSS i JavaScript — graj myszą lub klawiaturą.",
     fotomaticDesc:

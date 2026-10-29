@@ -43,12 +43,13 @@ export const en = {
   },
   announcement: {
     title: "Quick announcement!",
-    p1Before: "Hey there! Thanks for taking a moment to read this. My first game for the",
+    imageAlt: "CRXSSPR3SS on Playdate Simulator",
+    p1Before: "Hey there! Thanks for taking a moment to read this. My newest game for the",
     p1After: "console,",
     p1End: ", is out now on",
-    storeReview: "It was also sent for review to see if it could be published on the",
-    storeRejectedBefore: "Sadly, it wasn't accepted on the Playdate Store (who knows why), but it's still available on",
-    storeRejectedAfter: "as mentioned above.",
+    catalogBefore: "It's also been submitted to the",
+    catalogAfter: " for review — we'll see how that goes. Meanwhile you can grab it on",
+    catalogEnd: ".",
     instagramBefore: "For updates on current and upcoming work, check my",
     instagramLink: "Instagram page",
     thanks: "Thanks so much for your support — stay awesome!",
@@ -148,6 +149,8 @@ export const en = {
     subheading: "List of projects I've been working on",
     kazokuDesc:
       "Fast-paced arena boss fighter for the 1-bit Playdate, built in Lua with the Playdate SDK — code, art, and animation from scratch.",
+    crxsspr3ssDesc:
+      "Monochrome reflex combo-maker for Playdate — cue matching, multipliers, a CX1NS perk shop, and local + online hi-scores.",
     drumpadDesc:
       "Web drum machine (Hack A Boss Spain, 2023). Vanilla HTML, CSS, and JavaScript — play with mouse or keyboard.",
     fotomaticDesc:

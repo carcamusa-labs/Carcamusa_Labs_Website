@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useTranslation } from "../i18n/useTranslation";
 
-const DISMISS_KEY = "carcamusa_about_announcement_dismissed";
+const DISMISS_KEY = "carcamusa_crxsspr3ss_announcement_dismissed";
 
 function isDismissed(): boolean {
   try {
@@ -37,27 +37,29 @@ export function QuickAnnouncement() {
         ×
       </button>
       <div className="temp_announcement_img_container">
-        <img src="/assets/visuals/logos/thanks_website_asset.PNG" alt={t("common.thanksSupportAlt")} />
+        <img
+          src="/assets/visuals/logos/crxsspr3ss_announcement.png"
+          alt={t("announcement.imageAlt")}
+        />
       </div>
       <div className="temp_announcement_text_container">
         <h1 className="quick_announcement_h1">{t("announcement.title")}</h1>
         <p>
-          {t("announcement.p1Before")} <b>Playdate</b> {t("announcement.p1After")} <b>「Kazoku」</b>
+          {t("announcement.p1Before")} <b>Playdate</b> {t("announcement.p1After")}{" "}
+          <b>CRXSSPR3SS</b>
           {t("announcement.p1End")}{" "}
           <b>
-            <a href="https://carcamusa-labs.itch.io/kazoku">itch.io</a>
+            <a href="https://carcamusa-labs.itch.io/crxsspr3ss">itch.io</a>
           </b>
           .
         </p>
         <p>
-          <s>
-            {t("announcement.storeReview")} <b>Playdate Store</b>.
-          </s>{" "}
-          {t("announcement.storeRejectedBefore")}{" "}
+          {t("announcement.catalogBefore")} <b>Playdate Catalog</b>
+          {t("announcement.catalogAfter")}{" "}
           <b>
-            <a href="https://carcamusa-labs.itch.io/kazoku">itch.io</a>
-          </b>{" "}
-          {t("announcement.storeRejectedAfter")}
+            <a href="https://carcamusa-labs.itch.io/crxsspr3ss">itch.io</a>
+          </b>
+          {t("announcement.catalogEnd")}
         </p>
         <p>
           {t("announcement.instagramBefore")}{" "}

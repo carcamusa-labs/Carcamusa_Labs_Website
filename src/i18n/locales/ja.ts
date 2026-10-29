@@ -44,13 +44,13 @@ export const ja: TranslationDictionary = {
   },
   announcement: {
     title: "ちょっとしたお知らせ！",
+    imageAlt: "Playdate シミュレーター上の CRXSSPR3SS",
     p1Before: "読んでくれてありがとう。",
-    p1After: "向けの初作",
+    p1After: "向けの最新作",
     p1End: "は、すでに",
-    storeReview: "Playdate Store への掲載審査にも提出しました。",
-    storeRejectedBefore:
-      "残念ながら Playdate Store では承認されませんでした（理由は不明ですが）、引き続き",
-    storeRejectedAfter: "で遊べます（上記のとおり）。",
+    catalogBefore: "",
+    catalogAfter: " にも審査提出済みです。結果はこれから。とりあえず",
+    catalogEnd: "で遊べます。",
     instagramBefore: "現在・今後の作品の最新情報は",
     instagramLink: "Instagram",
     thanks: "いつも応援ありがとう — これからもよろしく！",
@@ -151,6 +151,8 @@ export const ja: TranslationDictionary = {
     subheading: "取り組んできたプロジェクト",
     kazokuDesc:
       "1-bit Playdate 向けの高速アリーナ・ボスファイター。Playdate SDK・Lua でコード・アート・アニメを一から制作。",
+    crxsspr3ssDesc:
+      "Playdate 向けモノクロ反射コンボメーカー。キュー合わせ、倍率、CX1NS パークショップ、ローカル＆オンラインハイスコア。",
     drumpadDesc:
       "Web ドラムマシン（Hack A Boss Spain、2023）。Vanilla HTML / CSS / JavaScript — マウスまたはキーボードで演奏。",
     fotomaticDesc:
