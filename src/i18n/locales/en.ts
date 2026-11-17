@@ -19,6 +19,8 @@ export const en = {
   },
   footer: {
     line: "CARCAMUSA_LABS by Martin Rosa (Nitram)",
+    privacy: "Privacy",
+    terms: "Terms",
   },
   nav: {
     about: "1. About",

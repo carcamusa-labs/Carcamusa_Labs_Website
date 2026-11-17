@@ -20,6 +20,8 @@ export const es: TranslationDictionary = {
   },
   footer: {
     line: "CARCAMUSA_LABS por Martin Rosa (Nitram)",
+    privacy: "Privacidad",
+    terms: "Términos",
   },
   nav: {
     about: "1. Acerca de",

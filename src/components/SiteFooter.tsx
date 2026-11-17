@@ -15,6 +15,10 @@ export function SiteFooter() {
           <Link to="/tools/sfx" className="footer-sfx-link">
             {t("nav.sfx")}
           </Link>
+          {" · "}
+          <a href="/legal/privacy.html">{t("footer.privacy")}</a>
+          {" · "}
+          <a href="/legal/terms.html">{t("footer.terms")}</a>
         </p>
         <p>{t("common.allRightsReserved")}</p>
       </div>

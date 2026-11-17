@@ -23,6 +23,10 @@ function copyStaticAndSpaFallback(): Plugin {
       if (existsSync(www)) {
         cpSync(www, join(dist, "www"), { recursive: true });
       }
+      const legal = join(root, "legal");
+      if (existsSync(legal)) {
+        cpSync(legal, join(dist, "legal"), { recursive: true });
+      }
       const indexHtml = join(dist, "index.html");
       if (existsSync(indexHtml)) {
         copyFileSync(indexHtml, join(dist, "404.html"));
