@@ -1,4 +1,4 @@
-import { cpSync, copyFileSync, existsSync, createReadStream, statSync } from "node:fs";
+import { cpSync, copyFileSync, existsSync, createReadStream, readdirSync, statSync } from "node:fs";
 import { join, normalize } from "node:path";
 import react from "@vitejs/plugin-react";
 import type { Plugin } from "vite";
@@ -26,6 +26,11 @@ function copyStaticAndSpaFallback(): Plugin {
       const legal = join(root, "legal");
       if (existsSync(legal)) {
         cpSync(legal, join(dist, "legal"), { recursive: true });
+      }
+      // Google Search Console HTML verification files (must be at site root)
+      for (const name of readdirSync(root)) {
+        if (!/^google[a-f0-9]+\.html$/i.test(name)) continue;
+        copyFileSync(join(root, name), join(dist, name));
       }
       const indexHtml = join(dist, "index.html");
       if (existsSync(indexHtml)) {
